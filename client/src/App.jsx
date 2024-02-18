@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import PhoneValidationComponent from "./components/Auth/Login"
+import Login from "./components/Auth/Login"
 import Hero from "./components/Hero/Hero"
 import Register from "./components/Auth/Register"
 import EmployerRegister from "./components/Auth/EmployerRegister"
@@ -13,7 +13,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Hero />} />
-      <Route path="/account/login" element={<PhoneValidationComponent />} />
+      <Route path="/account/login" element={<Login />} />
       <Route path="/account/register" element={<Register />} />
       <Route path="/account/register/employer" element={<EmployerRegister />} />
       <Route path="/account/register/employee" element={<EmployeeRegister />} />

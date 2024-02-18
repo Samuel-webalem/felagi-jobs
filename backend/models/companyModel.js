@@ -76,8 +76,11 @@ companySchema.pre("save", async function (next) {
   }
 });
 
-companySchema.methods.correctPassword = (newpassword, oldpassword) => {
-  return bcrypt.compare(oldpassword, newpassword);
+companySchema.methods.correctPassword = async function (
+  candidatePassword,
+  userPassword
+) {
+  return await bcrypt.compare(candidatePassword, userPassword);
 };
 const Company = model("Company", companySchema);
 

@@ -1,12 +1,15 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../contexts/authContext.jsx";
 
 const Login = () => {
   const navigate = useNavigate();
+  const { setAuthUser, setIsLoggedIn,user } = useAuth();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [userType, setUserType] = useState("employee");
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -16,9 +19,19 @@ const Login = () => {
     setPassword(e.target.value);
   };
 
+  const handleUserTypeChange = (e) => {
+    setUserType(e.target.value);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your login logic here using email and password
+    setIsLoggedIn(true);
+    setAuthUser({
+      email: email,
+      password: password,
+      UserType: userType, // Include UserType in the authUser object
+    });
+    navigate("/");
   };
 
   return (
@@ -46,6 +59,18 @@ const Login = () => {
             value={password}
             onChange={handlePasswordChange}
           />
+          <div className="mb-4">
+            <select
+              id="userType"
+              name="userType"
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              value={userType}
+              onChange={handleUserTypeChange}
+            >
+              <option value="employee">Employee</option>
+              <option value="company">Company</option>
+            </select>
+          </div>
           <button
             type="submit"
             className="w-full bg-[#328572] text-white py-2 rounded-md mt-4 hover:bg-[#32857290]"
