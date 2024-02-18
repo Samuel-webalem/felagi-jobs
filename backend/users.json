@@ -1,0 +1,205 @@
+[
+  {
+    "name": "Abebe Kebede",
+    "email": "abebe.kebede@example.com",
+    "phonenumber": 912345678,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Aida Tekle",
+    "email": "aida.tekle@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Amare Tadesse",
+    "email": "amare.tadesse@example.com",
+    "phonenumber": 911111111,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Assefa Girma",
+    "email": "assefa.girma@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Aster Yohannes",
+    "email": "aster.yohannes@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Betelhem Haile",
+    "email": "betelhem.haile@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Daniel Alemu",
+    "email": "daniel.alemu@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Elsa Tsegaye",
+    "email": "elsa.tsegaye@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Ephrem Teshome",
+    "email": "ephrem.teshome@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Fana Solomon",
+    "email": "fana.solomon@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Genet Mekonnen",
+    "email": "genet.mekonnen@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Habtamu Kebede",
+    "email": "habtamu.kebede@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Helina Ayele",
+    "email": "helina.ayele@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Kidist Gebremedhin",
+    "email": "kidist.gebremedhin@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Lemlem Tewodros",
+    "email": "lemlem.tewodros@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Meron Gebre",
+    "email": "meron.gebre@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Mulu Tadesse",
+    "email": "mulu.tadesse@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Natnael Alemu",
+    "email": "natnael.alemu@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Netsanet Tsegaye",
+    "email": "netsanet.tsegaye@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Nigist Assefa",
+    "email": "nigist.assefa@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Rahel Yohannes",
+    "email": "rahel.yohannes@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Rediet Gebremedhin",
+    "email": "rediet.gebremedhin@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Samrawit Mulugeta",
+    "email": "samrawit.mulugeta@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Seble Ayele",
+    "email": "seble.ayele@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Senait Kidane",
+    "email": "senait.kidane@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Tadesse Tesfaye",
+    "email": "tadesse.tesfaye@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Tewodros Assefa",
+    "email": "tewodros.assefa@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Winta Girma",
+    "email": "winta.girma@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Yared Gebre",
+    "email": "yared.gebre@example.com",
+    "phonenumber": 911234567,
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  }
+]

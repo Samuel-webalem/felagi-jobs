@@ -1,0 +1,419 @@
+[{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78d6"
+  },
+  "name": "EthioTech Solutions",
+  "description": "EthioTech Solutions is a leading technology company in Ethiopia, specializing in software development and IT services. We provide innovative solutions to help businesses succeed in the digital age.",
+  "industry": "Information Technology",
+  "email": "info@ethiotech.com",
+  "phone": "0112345678",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$rr7.ylc36df3HWOhXjW27.H1pUUHGfL1WllP7yvhriI7z8Opqhs06",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135409"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135409"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78d7"
+  },
+  "name": "Addis Motors",
+  "description": "Addis Motors is the premier car dealership in Ethiopia, offering a wide range of new and used vehicles. Our commitment to customer satisfaction sets us apart.",
+  "industry": "Automotive",
+  "email": "sales@addismotors.com",
+  "phone": "0118765432",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$nFiHFW6fGZodbMSlr/TH/OrScGUPzX70FXf.9.UEERVa5i9TYCejO",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78dc"
+  },
+  "name": "EthioFashion",
+  "description": "EthioFashion is a fashion retail company in Ethiopia, offering a curated selection of clothing and accessories. Our mission is to promote Ethiopian fashion and culture to the world.",
+  "industry": "Fashion",
+  "email": "info@ethiofashion.com",
+  "phone": "0116666666",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$mhOOfEImRcLDf3GFPy74nutKuD5vNfY5t7Z4q8JPtnmfcCbYCYkBa",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78db"
+  },
+  "name": "EthioMed Health Services",
+  "description": "EthioMed Health Services is a leading healthcare provider in Ethiopia, offering a wide range of medical services. Our state-of-the-art facilities and experienced staff ensure the highest level of care for our patients.",
+  "industry": "Healthcare",
+  "email": "info@ethiomed.com",
+  "phone": "0114444444",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$0x/zPrSaS1C60CJCZHSMv.FGcA07Hw6ID6ZtsJAUihO7ongNLu7h.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78dd"
+  },
+  "name": "EthioTrade",
+  "description": "EthioTrade is a leading trading company in Ethiopia, specializing in the import and export of goods. Our extensive network and expertise ensure seamless transactions for our clients.",
+  "industry": "Trading",
+  "email": "info@ethiotrade.com",
+  "phone": "0117777777",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$Lerp2ivl1j0ejznWbmnMv./W/GjekY2QprBoi0HBPBO4rLhZctYRm",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78de"
+  },
+  "name": "TechZone Electronics",
+  "description": "TechZone Electronics is a trusted electronics retailer in Ethiopia, offering a wide range of products at competitive prices. Our commitment to quality and customer satisfaction is unmatched.",
+  "industry": "Electronics",
+  "email": "info@techzone.com",
+  "phone": "0118888888",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$yvNDsFVknBvdD.BsbZiU4.Z1.ww.aMjw8DP9Ft2QeElNs2ocIITVy",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78df"
+  },
+  "name": "EthioCraft Furniture",
+  "description": "EthioCraft Furniture is a leading furniture manufacturer in Ethiopia, known for its high-quality craftsmanship and timeless designs. We create pieces that enrich the lives of our customers.",
+  "industry": "Furniture",
+  "email": "info@ethiocraft.com",
+  "phone": "0119999999",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$Gewx9DO9Cxlj/AVHiPCrk.rvU5rGQOtzbPTphGDgsfVAptEWkRQw6",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135412"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135412"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78e0"
+  },
+  "name": "EthioPharma",
+  "description": "EthioPharma is a pharmaceutical company in Ethiopia, dedicated to improving healthcare outcomes by providing high-quality, affordable medications. Our products are trusted by healthcare professionals and patients alike.",
+  "industry": "Pharmaceuticals",
+  "email": "info@ethiopharma.com",
+  "phone": "0111234567",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$EaWewojV4MjmfGtqLmkUWeAZBysmeqMAQ7zCW5ENq3y6qVWNxJFP.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135412"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135412"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78e1"
+  },
+  "name": "EthioTech Industries",
+  "description": "EthioTech Industries is a manufacturing company in Ethiopia, specializing in the production of industrial equipment and machinery. We are committed to quality and innovation in everything we do.",
+  "industry": "Manufacturing",
+  "email": "info@ethiotechindustries.com",
+  "phone": "0112345678",
+  "address": "Dire Dawa, Ethiopia",
+  "password": "$2a$12$tMWkqFM8E06Z7HU6M8tmq.PmRK.TDZbtgcEhadvn31T1OoihUr3Km",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135412"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135412"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78e2"
+  },
+  "name": "EthioPrint Media",
+  "description": "EthioPrint Media is a printing and publishing company in Ethiopia, offering a wide range of services including offset printing, digital printing, and graphic design. We strive for excellence in every project.",
+  "industry": "Printing",
+  "email": "info@ethioprintmedia.com",
+  "phone": "0113456789",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$D196k67lArZ31i14RDrUROAZ1QcBUigYi/mbLQS7P/HJ49QpRCi3W",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135412"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135412"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78d9"
+  },
+  "name": "Blue Nile Construction",
+  "description": "Blue Nile Construction is a renowned construction company in Ethiopia, with a track record of delivering high-quality projects on time and within budget. Our commitment to excellence is unmatched.",
+  "industry": "Construction",
+  "email": "contact@bluenileconst.com",
+  "phone": "0112222222",
+  "address": "Gondar, Ethiopia",
+  "password": "$2a$12$qMBsdqI2RFtYdGCq65fsZuTcZ0v3ym3OOBJoTALhs3TViJ0kvJw6e",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78e6"
+  },
+  "name": "EthioCraft Breweries",
+  "description": "EthioCraft Breweries is a brewery in Ethiopia, known for its high-quality craft beers. We use traditional brewing techniques and locally sourced ingredients to create unique and flavorful beers.",
+  "industry": "Brewing",
+  "email": "info@ethiocraftbreweries.com",
+  "phone": "0117890123",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$0lreUPaeUqhgYobCxW4bRuh0uWzVThU8O0uFrTxmwWjuQuK5ixQ9S",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135413"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135413"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78da"
+  },
+  "name": "Golden Tulip Hotels",
+  "description": "Golden Tulip Hotels is a luxury hotel chain with a presence in Ethiopia. We offer unparalleled hospitality and world-class amenities to ensure a memorable stay for our guests.",
+  "industry": "Hospitality",
+  "email": "reservations@goldentulip.com",
+  "phone": "0113333333",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$r3Ld3UEzCsHs32DKdgSoue7FcUPLM2io7jNPr0MB1PRN0fExxj/3q",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78d8"
+  },
+  "name": "Green Valley Agriculture",
+  "description": "Green Valley Agriculture is a leading agricultural company in Ethiopia, specializing in sustainable farming practices. Our goal is to provide high-quality produce while preserving the environment.",
+  "industry": "Agriculture",
+  "email": "info@greenvalleyagri.com",
+  "phone": "0115555555",
+  "address": "Bahir Dar, Ethiopia",
+  "password": "$2a$12$ku88.4tSrt06Z60LaQuWhOtgmh5KITvjFZf5r7nrduM7zvRGbHSvS",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135411"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78e4"
+  },
+  "name": "EthioTour Adventures",
+  "description": "EthioTour Adventures is a travel agency in Ethiopia, specializing in tours and travel packages. We offer unique experiences that showcase the beauty and culture of Ethiopia.",
+  "industry": "Travel",
+  "email": "info@ethiotouradventures.com",
+  "phone": "0115678901",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$qChqaGnWM7hcXK0wLgdHCOq.8L9R9FzOgTwOTEppB/6aNZHTdMz0S",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135412"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135412"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78e5"
+  },
+  "name": "EthioTech Consultancy",
+  "description": "EthioTech Consultancy is a consulting firm in Ethiopia, providing expert advice and solutions in technology and business. Our team of consultants is dedicated to helping clients achieve their goals.",
+  "industry": "Consulting",
+  "email": "info@ethiotechconsultancy.com",
+  "phone": "0116789012",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$FFBID5iVhj92LrM.GhETlOTTD3MnURLalZp7Rg8PGVKX/LtwKt3fm",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135413"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135413"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78e7"
+  },
+  "name": "EthioTech Energy",
+  "description": "EthioTech Energy is a renewable energy company in Ethiopia, specializing in solar and wind power solutions. We are committed to sustainability and reducing our carbon footprint.",
+  "industry": "Renewable Energy",
+  "email": "info@ethiotechenergy.com",
+  "phone": "0118901234",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$hMkg37LQs6YMa6OAWR62TureiMANBKFSozaV9aHxbfXHJEbpz5DBO",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135413"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135413"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d110c7ef165ebda93a78e3"
+  },
+  "name": "EthioTech Academy",
+  "description": "EthioTech Academy is a training institute in Ethiopia, offering courses in technology, business, and soft skills. Our goal is to empower individuals with the knowledge and skills to succeed in their careers.",
+  "industry": "Education",
+  "email": "info@ethiotechacademy.com",
+  "phone": "0114567890",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$A8ClPPm1AZg3a0e5gZzySeCZ74GckQ95afp5keWY.K2j8ft1cV/AC",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200135412"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200135412"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65d1130cb324d18611886184"
+  },
+  "name": "Addis-Motors",
+  "description": "Addis Motors is the premier car dealership in Ethiopia, offering a wide range of new and used vehicles. Our commitment to customer satisfaction sets us apart.",
+  "industry": "Automotive",
+  "email": "sales@addismotors.com",
+  "phone": "0118765432",
+  "address": "Addis Ababa, Ethiopia",
+  "password": "$2a$12$AXYZSdIyOV/VJDwuLHWAy.8Ys5HnfdHfUO2tN4d22aMKA5dUUvtzu",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708200716119"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708200716119"
+    }
+  },
+  "__v": 0
+}]

@@ -1,0 +1,102 @@
+[
+  {
+    "name": "EthioTech Solutions",
+    "description": "EthioTech Solutions is a leading technology company in Ethiopia, specializing in software development and IT services. We provide innovative solutions to help businesses succeed in the digital age.",
+    "industry": "Information Technology",
+    "email": "info@ethiotech.com",
+    "phone": "0112345678",
+    "address": "Addis Ababa, Ethiopia",
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Addis Motors",
+    "description": "Addis Motors is the premier car dealership in Ethiopia, offering a wide range of new and used vehicles. Our commitment to customer satisfaction sets us apart.",
+    "industry": "Automotive",
+    "email": "sales@addismotors.com",
+    "phone": "0118765432",
+    "address": "Addis Ababa, Ethiopia",
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Green Valley Agriculture",
+    "description": "Green Valley Agriculture is a leading agricultural company in Ethiopia, specializing in sustainable farming practices. Our goal is to provide high-quality produce while preserving the environment.",
+    "industry": "Agriculture",
+    "email": "info@greenvalleyagri.com",
+    "phone": "0115555555",
+    "address": "Bahir Dar, Ethiopia",
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Blue Nile Construction",
+    "description": "Blue Nile Construction is a renowned construction company in Ethiopia, with a track record of delivering high-quality projects on time and within budget. Our commitment to excellence is unmatched.",
+    "industry": "Construction",
+    "email": "contact@bluenileconst.com",
+    "phone": "0112222222",
+    "address": "Gondar, Ethiopia",
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "Golden Tulip Hotels",
+    "description": "Golden Tulip Hotels is a luxury hotel chain with a presence in Ethiopia. We offer unparalleled hospitality and world-class amenities to ensure a memorable stay for our guests.",
+    "industry": "Hospitality",
+    "email": "reservations@goldentulip.com",
+    "phone": "0113333333",
+    "address": "Addis Ababa, Ethiopia",
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "EthioMed Health Services",
+    "description": "EthioMed Health Services is a leading healthcare provider in Ethiopia, offering a wide range of medical services. Our state-of-the-art facilities and experienced staff ensure the highest level of care for our patients.",
+    "industry": "Healthcare",
+    "email": "info@ethiomed.com",
+    "phone": "0114444444",
+    "address": "Addis Ababa, Ethiopia",
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "EthioFashion",
+    "description": "EthioFashion is a fashion retail company in Ethiopia, offering a curated selection of clothing and accessories. Our mission is to promote Ethiopian fashion and culture to the world.",
+    "industry": "Fashion",
+    "email": "info@ethiofashion.com",
+    "phone": "0116666666",
+    "address": "Addis Ababa, Ethiopia",
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "EthioTrade",
+    "description": "EthioTrade is a leading trading company in Ethiopia, specializing in the import and export of goods. Our extensive network and expertise ensure seamless transactions for our clients.",
+    "industry": "Trading",
+    "email": "info@ethiotrade.com",
+    "phone": "0117777777",
+    "address": "Addis Ababa, Ethiopia",
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "TechZone Electronics",
+    "description": "TechZone Electronics is a trusted electronics retailer in Ethiopia, offering a wide range of products at competitive prices. Our commitment to quality and customer satisfaction is unmatched.",
+    "industry": "Electronics",
+    "email": "info@techzone.com",
+    "phone": "0118888888",
+    "address": "Addis Ababa, Ethiopia",
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  },
+  {
+    "name": "EthioCraft Furniture",
+    "description": "EthioCraft Furniture is a leading furniture manufacturer in Ethiopia, known for its high-quality craftsmanship and timeless designs. We create pieces that enrich the lives of our customers.",
+    "industry": "Furniture",
+    "email": "info@ethiocraft.com",
+    "phone": "0119999999",
+    "address": "Addis Ababa, Ethiopia",
+    "password": "password123",
+    "passwordConfirmation": "password123"
+  }
+]

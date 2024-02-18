@@ -1,0 +1,698 @@
+[
+{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4bfd"
+  },
+  "title": "Warehouse Supervisor",
+  "description": "We are looking for a warehouse supervisor to oversee the efficient operation of our warehouse. The successful candidate will be responsible for managing inventory, ensuring the accuracy of shipments, and maintaining a safe working environment.",
+  "requirement": "Bachelor's degree in Logistics or related field, experience in warehouse management, strong leadership skills",
+  "responsibility": "Managing warehouse operations, overseeing inventory management, ensuring accuracy of shipments",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 35000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78dd"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886005"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886005"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4bfe"
+  },
+  "title": "Electronics Technician",
+  "description": "We are seeking an electronics technician to join our team. The successful candidate will be responsible for installing, maintaining, and repairing electronic equipment.",
+  "requirement": "Diploma or degree in Electronics or related field, experience in electronics repair, strong troubleshooting skills",
+  "responsibility": "Installing, maintaining, and repairing electronic equipment, troubleshooting equipment malfunctions, documenting repairs",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 35000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78de"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886006"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886006"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c00"
+  },
+  "title": "Pharmacist",
+  "description": "We are seeking a qualified pharmacist to join our team. The successful candidate will dispense medications and provide pharmaceutical care to patients.",
+  "requirement": "Bachelor's degree in Pharmacy, valid pharmacy license, experience in pharmacy practice",
+  "responsibility": "Dispensing medications, providing drug information to patients and healthcare professionals, monitoring patient medication therapy",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 40000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e0"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886006"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886006"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c01"
+  },
+  "title": "Quality Control Inspector",
+  "description": "We are seeking a quality control inspector to ensure that our products meet quality standards. The successful candidate will inspect products, conduct tests, and document findings.",
+  "requirement": "Diploma or degree in Quality Control or related field, experience in quality control, attention to detail",
+  "responsibility": "Inspecting products for quality defects, conducting tests to ensure product quality, documenting inspection results",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 35000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e0"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886006"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886006"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c02"
+  },
+  "title": "Graphic Designer",
+  "description": "We are looking for a creative graphic designer to join our team. The ideal candidate will have a strong design portfolio and a passion for visual communication.",
+  "requirement": "Bachelor's degree in Graphic Design or related field, experience in graphic design, proficiency in design software",
+  "responsibility": "Creating visual concepts, developing design solutions, collaborating with team members on design projects",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 35000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78df"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886006"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886006"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c03"
+  },
+  "title": "Content Writer",
+  "description": "We are seeking a talented content writer to join our team. The successful candidate will be responsible for creating engaging and informative content for our website and marketing materials.",
+  "requirement": "Bachelor's degree in English, Journalism, or related field, experience in content writing, excellent writing skills",
+  "responsibility": "Writing and editing website content, creating marketing materials, researching industry-related topics",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 30000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78df"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886006"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886006"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c04"
+  },
+  "title": "Mechanical Engineer",
+  "description": "We are seeking a skilled mechanical engineer to join our team. The successful candidate will be responsible for designing and testing mechanical systems and devices.",
+  "requirement": "Bachelor's degree in Mechanical Engineering or related field, experience in mechanical engineering, strong analytical skills",
+  "responsibility": "Designing mechanical systems and devices, conducting tests to ensure product performance, analyzing test data",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 45000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e1"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886006"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886006"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c05"
+  },
+  "title": "Civil Engineer",
+  "description": "We are seeking a civil engineer to join our team. The successful candidate will be responsible for designing and overseeing construction projects.",
+  "requirement": "Bachelor's degree in Civil Engineering or related field, experience in civil engineering, knowledge of construction principles and practices",
+  "responsibility": "Designing construction projects, preparing cost estimates, overseeing construction activities",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 45000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e1"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c06"
+  },
+  "title": "Graphic Designer",
+  "description": "We are looking for a creative graphic designer to join our team. The ideal candidate will have a strong design portfolio and a passion for visual communication.",
+  "requirement": "Bachelor's degree in Graphic Design or related field, experience in graphic design, proficiency in design software",
+  "responsibility": "Creating visual concepts, developing design solutions, collaborating with team members on design projects",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 35000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e2"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c07"
+  },
+  "title": "Marketing Specialist",
+  "description": "We are looking for a marketing specialist to join our team. The ideal candidate will have a strong background in marketing and a passion for creativity.",
+  "requirement": "Bachelor's degree in Marketing or related field, experience in marketing, creativity and innovation",
+  "responsibility": "Developing and implementing marketing strategies, analyzing market trends, coordinating marketing campaigns",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 40000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e2"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c08"
+  },
+  "title": "Accountant",
+  "description": "We are seeking an accountant to join our team. The successful candidate will be responsible for preparing financial documents, maintaining financial records, and analyzing financial data.",
+  "requirement": "Bachelor's degree in Accounting or related field, experience in accounting, strong analytical skills",
+  "responsibility": "Preparing financial documents, maintaining financial records, analyzing financial data",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 35000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e3"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c09"
+  },
+  "title": "HR Manager",
+  "description": "We are looking for an HR manager to lead our HR team. The ideal candidate will have a strong background in HR management and a passion for employee development.",
+  "requirement": "Bachelor's degree in HR Management or related field, experience in HR management, strong leadership skills",
+  "responsibility": "Developing and implementing HR strategies, managing employee relations, overseeing recruitment and hiring processes",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 45000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e3"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4bf7"
+  },
+  "title": "Sales Representative",
+  "description": "We are seeking a motivated sales representative to join our sales team. The successful candidate will be responsible for generating leads and closing sales deals.",
+  "requirement": "Bachelor's degree in Business Administration or related field, experience in sales, excellent communication skills",
+  "responsibility": "Generating leads, meeting or exceeding sales targets, maintaining customer relationships",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 35000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78d7"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886004"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886004"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c0b"
+  },
+  "title": "IT Support Specialist",
+  "description": "We are seeking an IT support specialist to provide technical assistance to our clients. The successful candidate will have excellent problem-solving skills and a customer-focused attitude.",
+  "requirement": "Bachelor's degree in Information Technology or related field, experience in IT support or a similar role, strong communication skills",
+  "responsibility": "Providing technical support to clients, diagnosing and resolving hardware and software issues, documenting support procedures and solutions",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 40000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e4"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4bf8"
+  },
+  "title": "Fashion Designer",
+  "description": "We are looking for a creative fashion designer to join our team. The ideal candidate will have a passion for fashion and a strong design portfolio.",
+  "requirement": "Bachelor's degree in Fashion Design or related field, experience in fashion design, strong design skills",
+  "responsibility": "Creating and developing new clothing and accessory designs, collaborating with team members to create seasonal collections, staying up-to-date with fashion trends",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 40000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78dc"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886004"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886004"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c0d"
+  },
+  "title": "Sales Representative",
+  "description": "We are seeking a motivated sales representative to join our sales team. The successful candidate will be responsible for generating leads and closing sales deals.",
+  "requirement": "Bachelor's degree in Business Administration or related field, experience in sales, excellent communication skills",
+  "responsibility": "Generating leads, meeting or exceeding sales targets, maintaining customer relationships",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 35000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e5"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886008"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886008"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c0e"
+  },
+  "title": "Fashion Designer",
+  "description": "We are looking for a creative fashion designer to join our team. The ideal candidate will have a passion for fashion and a strong design portfolio.",
+  "requirement": "Bachelor's degree in Fashion Design or related field, experience in fashion design, strong design skills",
+  "responsibility": "Creating and developing new clothing and accessory designs, collaborating with team members to create seasonal collections, staying up-to-date with fashion trends",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 40000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e6"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886008"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886008"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c0f"
+  },
+  "title": "Retail Sales Associate",
+  "description": "We are seeking a retail sales associate to join our team. The successful candidate will be responsible for assisting customers, processing sales transactions, and maintaining a clean and organized store environment.",
+  "requirement": "High school diploma or equivalent, experience in retail sales, excellent customer service skills",
+  "responsibility": "Assisting customers with product selection, processing sales transactions, maintaining store cleanliness and organization",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 30000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e6"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886008"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886008"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c10"
+  },
+  "title": "Nurse",
+  "description": "We are seeking a qualified nurse to join our team. The successful candidate will provide nursing care to patients and assist physicians in healthcare facilities.",
+  "requirement": "Diploma or degree in Nursing, valid nursing license, experience in nursing",
+  "responsibility": "Providing direct patient care, administering medications, monitoring patient vital signs",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 35000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e7"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886008"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886008"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c12"
+  },
+  "title": "Logistics Coordinator",
+  "description": "We are seeking a logistics coordinator to manage the transportation and distribution of goods. The successful candidate will ensure the efficient and timely delivery of products to customers.",
+  "requirement": "Bachelor's degree in Logistics or related field, experience in logistics coordination, strong organizational skills",
+  "responsibility": "Coordinating transportation and distribution of goods, tracking shipment status, resolving transportation issues",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 40000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e8"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886009"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886009"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c13"
+  },
+  "title": "Warehouse Supervisor",
+  "description": "We are looking for a warehouse supervisor to oversee the efficient operation of our warehouse. The successful candidate will be responsible for managing inventory, ensuring the accuracy of shipments, and maintaining a safe working environment.",
+  "requirement": "Bachelor's degree in Logistics or related field, experience in warehouse management, strong leadership skills",
+  "responsibility": "Managing warehouse operations, overseeing inventory management, ensuring accuracy of shipments",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 35000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e8"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886009"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886009"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c14"
+  },
+  "title": "Electronics Technician",
+  "description": "We are seeking an electronics technician to join our team. The successful candidate will be responsible for installing, maintaining, and repairing electronic equipment.",
+  "requirement": "Diploma or degree in Electronics or related field, experience in electronics repair, strong troubleshooting skills",
+  "responsibility": "Installing, maintaining, and repairing electronic equipment, troubleshooting equipment malfunctions, documenting repairs",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 35000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e9"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886009"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886009"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c16"
+  },
+  "title": "Pharmacist",
+  "description": "We are seeking a qualified pharmacist to join our team. The successful candidate will dispense medications and provide pharmaceutical care to patients.",
+  "requirement": "Bachelor's degree in Pharmacy, valid pharmacy license, experience in pharmacy practice",
+  "responsibility": "Dispensing medications, providing drug information to patients and healthcare professionals, monitoring patient medication therapy",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 40000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78ea"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886010"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886010"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c17"
+  },
+  "title": "Quality Control Inspector",
+  "description": "We are seeking a quality control inspector to ensure that our products meet quality standards. The successful candidate will inspect products, conduct tests, and document findings.",
+  "requirement": "Diploma or degree in Quality Control or related field, experience in quality control, attention to detail",
+  "responsibility": "Inspecting products for quality defects, conducting tests to ensure product quality, documenting inspection results",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 35000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78ea"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886010"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886010"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c18"
+  },
+  "title": "Graphic Designer",
+  "description": "We are looking for a creative graphic designer to join our team. The ideal candidate will have a strong design portfolio and a passion for visual communication.",
+  "requirement": "Bachelor's degree in Graphic Design or related field, experience in graphic design, proficiency in design software",
+  "responsibility": "Creating visual concepts, developing design solutions, collaborating with team members on design projects",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 35000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78eb"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886010"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886010"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c19"
+  },
+  "title": "Content Writer",
+  "description": "We are seeking a talented content writer to join our team. The successful candidate will be responsible for creating engaging and informative content for our website and marketing materials.",
+  "requirement": "Bachelor's degree in English, Journalism, or related field, experience in content writing, excellent writing skills",
+  "responsibility": "Writing and editing website content, creating marketing materials, researching industry-related topics",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 30000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78eb"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886010"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886010"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c1a"
+  },
+  "title": "Mechanical Engineer",
+  "description": "We are seeking a skilled mechanical engineer to join our team. The successful candidate will be responsible for designing and testing mechanical systems and devices.",
+  "requirement": "Bachelor's degree in Mechanical Engineering or related field, experience in mechanical engineering, strong analytical skills",
+  "responsibility": "Designing mechanical systems and devices, conducting tests to ensure product performance, analyzing test data",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 45000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78ec"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886010"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886010"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c0a"
+  },
+  "title": "Software Developer",
+  "description": "We are looking for a talented software developer to join our team. The ideal candidate will have a strong background in software development and a passion for innovation.",
+  "requirement": "Bachelor's degree in Computer Science or related field, proficiency in programming languages such as Java, C++, or Python, experience with software development lifecycle",
+  "responsibility": "Developing high-quality software solutions, collaborating with team members to design and implement features, participating in code reviews and pair programming sessions",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 50000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e4"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886007"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65d11f6d6a1e1fd5780f4c0c"
+  },
+  "title": "Marketing Manager",
+  "description": "We are looking for an experienced marketing manager to lead our marketing team. The ideal candidate will have a proven track record of success in developing and executing marketing strategies.",
+  "requirement": "Bachelor's degree in Marketing or related field, experience in marketing management, strong leadership skills",
+  "responsibility": "Developing and implementing marketing strategies, managing marketing campaigns, analyzing market trends and competitor activities",
+  "location": "Addis Ababa, Ethiopia",
+  "salary": 45000,
+  "company": {
+    "$oid": "65d110c7ef165ebda93a78e5"
+  },
+  "type": "full-time",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1708203886008"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1708203886008"
+    }
+  }
+}]
