@@ -51,13 +51,7 @@ export function AuthProvider(props) {
     }
   }, [authUser]);
 
-  // Log the company after it has been set
-  useEffect(() => {
-    console.log(company);
-  }, [company]);
- useEffect(() => {
-   console.log(user);
- }, [user]);
+  
   return (
     <AuthContext.Provider value={value}>{props.children}</AuthContext.Provider>
   );

@@ -1,173 +1,155 @@
-const data = [
-  {
-    company: "ABC Company",
-    title: "Software Engineer",
-    description:
-      "We are looking for a skilled software engineer to join our team.",
-    requirement: "Bachelor's degree in Computer Science or related field.",
-    responsibility: "Developing high-quality software design and architecture.",
-    salary: "80000",
-    type: "Full time",
-    location: "Addis Ababa, Ethiopia",
-  },
-  {
-    company: "XYZ Company",
-    title: "Marketing Manager",
-    description: "Seeking a creative and strategic marketing manager.",
-    requirement: "5+ years of experience in marketing.",
-    responsibility: "Developing marketing campaigns and strategies.",
-    salary: "90000",
-    type: "Full time",
-    location: "Addis Ababa, Ethiopia",
-  },
-  {
-    company: "123 Company",
-    title: "Customer Service Representative",
-    description:
-      "Join our customer service team and help resolve customer issues.",
-    requirement: "Excellent communication skills.",
-    responsibility: "Handling customer inquiries and resolving complaints.",
-    salary: "50000",
-    type: "Full time",
-    location: "Addis Ababa, Ethiopia",
-  },
-  {
-    company: "456 Company",
-    title: "Graphic Designer",
-    description:
-      "Looking for a creative graphic designer to create engaging designs.",
-    requirement: "Proficiency in Adobe Creative Suite.",
-    responsibility:
-      "Creating visual elements for websites, social media, and print.",
-    salary: "60000",
-    type: "Full time",
-    location: "Addis Ababa, Ethiopia",
-  },
-  {
-    company: "789 Company",
-    title: "Accountant",
-    description: "Join our finance team as an accountant.",
-    requirement: "CPA certification preferred.",
-    responsibility: "Preparing financial statements and reports.",
-    salary: "70000",
-    type: "Full time",
-    location: "Addis Ababa, Ethiopia",
-  },
-  {
-    company: "ABC Company",
-    title: "Human Resources Manager",
-    description:
-      "Seeking an experienced HR manager to oversee human resources.",
-    requirement: "Bachelor's degree in HR or related field.",
-    responsibility: "Managing HR operations and employee relations.",
-    salary: "80000",
-    type: "Full time",
-    location: "Addis Ababa, Ethiopia",
-  },
-  {
-    company: "XYZ Company",
-    title: "Web Developer",
-    description: "Join our web development team to create innovative websites.",
-    requirement: "Proficiency in HTML, CSS, and JavaScript.",
-    responsibility: "Developing and maintaining websites.",
-    salary: "70000",
-    type: "Full time",
-    location: "Addis Ababa, Ethiopia",
-  },
-  {
-    company: "123 Company",
-    title: "Sales Manager",
-    description: "Lead our sales team to achieve sales targets.",
-    requirement: "Proven experience in sales management.",
-    responsibility: "Developing sales strategies and managing sales teams.",
-    salary: "90000",
-    type: "Full time",
-    location: "Addis Ababa, Ethiopia",
-  },
-  {
-    company: "456 Company",
-    title: "Data Analyst",
-    description: "Join our data analytics team to analyze and interpret data.",
-    requirement: "Strong analytical skills and attention to detail.",
-    responsibility: "Analyzing data and generating reports.",
-    salary: "75000",
-    type: "Full time",
-    location: "Addis Ababa, Ethiopia",
-  },
-  {
-    company: "789 Company",
-    title: "Operations Manager",
-    description: "Manage day-to-day operations of our company.",
-    requirement: "Proven experience in operations management.",
-    responsibility: "Overseeing daily operations and ensuring efficiency.",
-    salary: "85000",
-    type: "Full time",
-    location: "Addis Ababa, Ethiopia",
-  },
-];
+import React, { useState,useEffect } from "react";
+
+import { useLocation } from "react-router-dom";
+import {
+  useNavigate
+} from "react-router-dom";
+import { useJob } from "../../../contexts/jobContext.jsx";
+import {
+  FaMapMarkerAlt,
+  FaClock,
+  FaBriefcase,
+  FaRegClock,
+} from "react-icons/fa";
 
 const Dashboard = () => {
+  const navigate = useNavigate(); // Use navigate from react-router-dom
+  const { jobs, loading, error } = useJob();
+  const [searchTerm, setSearchTerm] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(4);
+  const location = useLocation();
+  const propValue = location.state?.propKey;
+ useEffect(() => {
+   if (propValue) {
+     setSearchTerm(propValue);
+   }
+ }, [propValue]);
+  const filteredJobs = jobs.filter(
+    (job) =>
+      job.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentJobs = filteredJobs.slice(indexOfFirstItem, indexOfLastItem);
+
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
   return (
     <div className="grid">
-      <div className="flex m-5 justify-between">
-        <div className="flex  gap-2 w-[40%] bg-[#D7E4C0] p-2 rounded ">
-          <input
-            type="text"
-            placeholder="Search by Jobs title. ....."
-            className=" bg-transparent text-black w-[400px] placeholder:text-black border-none outline-none px-2 py-1"
-          />
-
-          <button className="bg-[#328572]  px-5 py-2 rounded text-[#ffffff] cursor-pointer shadow-md">
-            Find job
-          </button>
-        </div>
-        <div className="flex h-1/2  w-[30%] flex-col bg-[#D7E4C0] items-center">
-          <select
-            id="filter"
-            className="mt-1 block w-full p-2 bg-[#D7E4C0] rounded-md"
-          >
-            <option value="" disabled selected hidden>
-              Filter
-            </option>
-            <optgroup label="Type">
-              <option value="fulltime">Full Time</option>
-              <option value="parttime">Part Time</option>
-            </optgroup>
-            <optgroup label="Location">
-              <option value="onsite">Onsite</option>
-              <option value="remote">Remote</option>
-            </optgroup>
-          </select>
-        </div>
-      </div>
-
-      <div className="flex flex-wrap justify-start h-screen">
-        {data.map((job, index) => (
-          <div
-            key={index}
-            className="w-[30%] p-10 border bg-[#D7E4C0] border-gray-300 m-5 rounded-md mb-4"
-          >
-            <h3 className="text-lg font-bold">{job.title}</h3>
-            <p className="text-lg mt-5">
-              {" "}
-              <span className="font-bold">company : </span>
-              {job.company}
-            </p>
-            <p className="text-lg">
-              <span className="font-bold">Location :</span> {job.location}
-            </p>
-            <div className="flex justify-between items-center">
-              <div className="date mt-5">
-                <p className="text-blue-800">2 days ago</p>
-              </div>
-              <div className="detail">
-                <p className="text-bold text-blue-500 mt-5 text-lg">
-                  View Job Detail
-                </p>
-              </div>
+      <div className="flex justify-between ml-10 mr-10">
+        <div>
+          <div className="flex m-1 gap-2 w-full  justify-end">
+            <div className="flex gap-2 w-[500px] bg-[#D7E4C0] mr-7 ml-[740px] p-2 justify-between rounded leading-normal">
+              <input
+                type="text"
+                placeholder="Search by Jobs title......"
+                className="bg-transparent text-black w-[300px] placeholder:text-black border-none outline-none px-2 py-0.1"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+              />
+              <button
+                className="bg-[#328572] px-1 py-1 w-[100px] rounded text-[#ffffff] cursor-pointer shadow-md"
+                onClick={() => {}}
+              >
+                Find job
+              </button>
             </div>
           </div>
-        ))}
+          {currentJobs.map((job) => {
+            const createdAt = new Date(job.createdAt);
+            const now = new Date();
+            const diff = now - createdAt;
+            let posted;
+           if (diff < 60000) {
+             posted = `${Math.round(diff / 1000)} seconds ago`;
+           } else if (diff < 3600000) {
+             posted = `${Math.round(diff / 60000)} minutes ago`;
+           } else if (diff < 86400000) {
+             posted = `${Math.round(diff / 3600000)} hours ago`;
+           } else if (diff < 604800000) {
+             posted = `${Math.round(diff / 86400000)} days ago`;
+           } else if (diff < 2419200000) {
+             posted = `${Math.round(diff / 604800000)} weeks ago`;
+           } else {
+             posted = `${Math.round(diff / 2419200000)} months ago`;
+           }
+
+
+            return (
+              <div
+                key={job.id}
+                className="w-[85%] p-10 border bg-[#D7E4C0] border-gray-300 m-5 ml-[100px] rounded-md mb-2"
+              >
+                <div className="flex justify-between mb-5">
+                  <div className="flex">
+                    <FaBriefcase
+                      className="inline-block text-4xl m-2"
+                      color="#328572"
+                    />
+                    <div className="ml-3">
+                      <h3 className="text-lg font-bold">{job.title}</h3>
+                      <p className="text-sm font-bold">
+                        {job.company?.name || "Company Name Unavailable"}
+                      </p>
+                    </div>
+                  </div>
+
+                  <p className="text-lg mt-2">
+                    <FaMapMarkerAlt
+                      className="inline-block mr-2"
+                      color="#328572"
+                    />
+                    {job.location}
+                  </p>
+                </div>
+
+                <p className="text-lg mt-2">{job.description}</p>
+
+                <hr className="border-0 bg-[#BBC3A4] h-px mt-8" />
+
+                <div className="flex justify-between items-center">
+                  <p className="text-lg text-[#328572] mt-4 ">
+                    <FaClock className="inline-block mr-2" color="#328572" />
+                    {job.type}
+                  </p>
+                  <div className="flex date mt-5">
+                    <FaRegClock className="inline-block mr-2 mt-1 text-xl text-[#328572]" />
+                    <p className="text-[#328572]">{posted}</p>
+                  </div>
+                  <div
+                    className="detail cursor-pointer"
+                   onClick={() => navigate(`/job/job-detail/${job.id}`, { state: { job } })}
+                  >
+                    <p className="text-bold text-[#328572] mt-5 text-lg">
+                      View Job Detail
+                    </p>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+          <div className="flex justify-center mt-5">
+            {Array.from(
+              { length: Math.ceil(filteredJobs.length / itemsPerPage) },
+              (_, i) => (
+                <button
+                  key={i}
+                  className={`mx-1 px-3 py-1 rounded ${
+                    currentPage === i + 1
+                      ? "bg-[#328572] text-white"
+                      : "bg-white text-[#328572] hover:bg-gray-200 hover:text-black"
+                  }`}
+                  onClick={() => paginate(i + 1)}
+                >
+                  {i + 1}
+                </button>
+              )
+            )}
+          </div>
+        </div>
       </div>
     </div>
   );

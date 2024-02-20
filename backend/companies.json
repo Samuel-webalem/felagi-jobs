@@ -1,419 +1,667 @@
-[{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78d6"
-  },
-  "name": "EthioTech Solutions",
-  "description": "EthioTech Solutions is a leading technology company in Ethiopia, specializing in software development and IT services. We provide innovative solutions to help businesses succeed in the digital age.",
-  "industry": "Information Technology",
-  "email": "info@ethiotech.com",
-  "phone": "0112345678",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$rr7.ylc36df3HWOhXjW27.H1pUUHGfL1WllP7yvhriI7z8Opqhs06",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135409"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135409"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78d7"
-  },
-  "name": "Addis Motors",
-  "description": "Addis Motors is the premier car dealership in Ethiopia, offering a wide range of new and used vehicles. Our commitment to customer satisfaction sets us apart.",
-  "industry": "Automotive",
-  "email": "sales@addismotors.com",
-  "phone": "0118765432",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$nFiHFW6fGZodbMSlr/TH/OrScGUPzX70FXf.9.UEERVa5i9TYCejO",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78dc"
-  },
-  "name": "EthioFashion",
-  "description": "EthioFashion is a fashion retail company in Ethiopia, offering a curated selection of clothing and accessories. Our mission is to promote Ethiopian fashion and culture to the world.",
-  "industry": "Fashion",
-  "email": "info@ethiofashion.com",
-  "phone": "0116666666",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$mhOOfEImRcLDf3GFPy74nutKuD5vNfY5t7Z4q8JPtnmfcCbYCYkBa",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78db"
-  },
-  "name": "EthioMed Health Services",
-  "description": "EthioMed Health Services is a leading healthcare provider in Ethiopia, offering a wide range of medical services. Our state-of-the-art facilities and experienced staff ensure the highest level of care for our patients.",
-  "industry": "Healthcare",
-  "email": "info@ethiomed.com",
-  "phone": "0114444444",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$0x/zPrSaS1C60CJCZHSMv.FGcA07Hw6ID6ZtsJAUihO7ongNLu7h.",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78dd"
-  },
-  "name": "EthioTrade",
-  "description": "EthioTrade is a leading trading company in Ethiopia, specializing in the import and export of goods. Our extensive network and expertise ensure seamless transactions for our clients.",
-  "industry": "Trading",
-  "email": "info@ethiotrade.com",
-  "phone": "0117777777",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$Lerp2ivl1j0ejznWbmnMv./W/GjekY2QprBoi0HBPBO4rLhZctYRm",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78de"
-  },
-  "name": "TechZone Electronics",
-  "description": "TechZone Electronics is a trusted electronics retailer in Ethiopia, offering a wide range of products at competitive prices. Our commitment to quality and customer satisfaction is unmatched.",
-  "industry": "Electronics",
-  "email": "info@techzone.com",
-  "phone": "0118888888",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$yvNDsFVknBvdD.BsbZiU4.Z1.ww.aMjw8DP9Ft2QeElNs2ocIITVy",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78df"
-  },
-  "name": "EthioCraft Furniture",
-  "description": "EthioCraft Furniture is a leading furniture manufacturer in Ethiopia, known for its high-quality craftsmanship and timeless designs. We create pieces that enrich the lives of our customers.",
-  "industry": "Furniture",
-  "email": "info@ethiocraft.com",
-  "phone": "0119999999",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$Gewx9DO9Cxlj/AVHiPCrk.rvU5rGQOtzbPTphGDgsfVAptEWkRQw6",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135412"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135412"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78e0"
-  },
-  "name": "EthioPharma",
-  "description": "EthioPharma is a pharmaceutical company in Ethiopia, dedicated to improving healthcare outcomes by providing high-quality, affordable medications. Our products are trusted by healthcare professionals and patients alike.",
-  "industry": "Pharmaceuticals",
-  "email": "info@ethiopharma.com",
-  "phone": "0111234567",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$EaWewojV4MjmfGtqLmkUWeAZBysmeqMAQ7zCW5ENq3y6qVWNxJFP.",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135412"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135412"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78e1"
-  },
-  "name": "EthioTech Industries",
-  "description": "EthioTech Industries is a manufacturing company in Ethiopia, specializing in the production of industrial equipment and machinery. We are committed to quality and innovation in everything we do.",
-  "industry": "Manufacturing",
-  "email": "info@ethiotechindustries.com",
-  "phone": "0112345678",
-  "address": "Dire Dawa, Ethiopia",
-  "password": "$2a$12$tMWkqFM8E06Z7HU6M8tmq.PmRK.TDZbtgcEhadvn31T1OoihUr3Km",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135412"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135412"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78e2"
-  },
-  "name": "EthioPrint Media",
-  "description": "EthioPrint Media is a printing and publishing company in Ethiopia, offering a wide range of services including offset printing, digital printing, and graphic design. We strive for excellence in every project.",
-  "industry": "Printing",
-  "email": "info@ethioprintmedia.com",
-  "phone": "0113456789",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$D196k67lArZ31i14RDrUROAZ1QcBUigYi/mbLQS7P/HJ49QpRCi3W",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135412"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135412"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78d9"
-  },
-  "name": "Blue Nile Construction",
-  "description": "Blue Nile Construction is a renowned construction company in Ethiopia, with a track record of delivering high-quality projects on time and within budget. Our commitment to excellence is unmatched.",
-  "industry": "Construction",
-  "email": "contact@bluenileconst.com",
-  "phone": "0112222222",
-  "address": "Gondar, Ethiopia",
-  "password": "$2a$12$qMBsdqI2RFtYdGCq65fsZuTcZ0v3ym3OOBJoTALhs3TViJ0kvJw6e",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78e6"
-  },
-  "name": "EthioCraft Breweries",
-  "description": "EthioCraft Breweries is a brewery in Ethiopia, known for its high-quality craft beers. We use traditional brewing techniques and locally sourced ingredients to create unique and flavorful beers.",
-  "industry": "Brewing",
-  "email": "info@ethiocraftbreweries.com",
-  "phone": "0117890123",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$0lreUPaeUqhgYobCxW4bRuh0uWzVThU8O0uFrTxmwWjuQuK5ixQ9S",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135413"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135413"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78da"
-  },
-  "name": "Golden Tulip Hotels",
-  "description": "Golden Tulip Hotels is a luxury hotel chain with a presence in Ethiopia. We offer unparalleled hospitality and world-class amenities to ensure a memorable stay for our guests.",
-  "industry": "Hospitality",
-  "email": "reservations@goldentulip.com",
-  "phone": "0113333333",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$r3Ld3UEzCsHs32DKdgSoue7FcUPLM2io7jNPr0MB1PRN0fExxj/3q",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78d8"
-  },
-  "name": "Green Valley Agriculture",
-  "description": "Green Valley Agriculture is a leading agricultural company in Ethiopia, specializing in sustainable farming practices. Our goal is to provide high-quality produce while preserving the environment.",
-  "industry": "Agriculture",
-  "email": "info@greenvalleyagri.com",
-  "phone": "0115555555",
-  "address": "Bahir Dar, Ethiopia",
-  "password": "$2a$12$ku88.4tSrt06Z60LaQuWhOtgmh5KITvjFZf5r7nrduM7zvRGbHSvS",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135411"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78e4"
-  },
-  "name": "EthioTour Adventures",
-  "description": "EthioTour Adventures is a travel agency in Ethiopia, specializing in tours and travel packages. We offer unique experiences that showcase the beauty and culture of Ethiopia.",
-  "industry": "Travel",
-  "email": "info@ethiotouradventures.com",
-  "phone": "0115678901",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$qChqaGnWM7hcXK0wLgdHCOq.8L9R9FzOgTwOTEppB/6aNZHTdMz0S",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135412"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135412"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78e5"
-  },
-  "name": "EthioTech Consultancy",
-  "description": "EthioTech Consultancy is a consulting firm in Ethiopia, providing expert advice and solutions in technology and business. Our team of consultants is dedicated to helping clients achieve their goals.",
-  "industry": "Consulting",
-  "email": "info@ethiotechconsultancy.com",
-  "phone": "0116789012",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$FFBID5iVhj92LrM.GhETlOTTD3MnURLalZp7Rg8PGVKX/LtwKt3fm",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135413"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135413"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78e7"
-  },
-  "name": "EthioTech Energy",
-  "description": "EthioTech Energy is a renewable energy company in Ethiopia, specializing in solar and wind power solutions. We are committed to sustainability and reducing our carbon footprint.",
-  "industry": "Renewable Energy",
-  "email": "info@ethiotechenergy.com",
-  "phone": "0118901234",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$hMkg37LQs6YMa6OAWR62TureiMANBKFSozaV9aHxbfXHJEbpz5DBO",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135413"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135413"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d110c7ef165ebda93a78e3"
-  },
-  "name": "EthioTech Academy",
-  "description": "EthioTech Academy is a training institute in Ethiopia, offering courses in technology, business, and soft skills. Our goal is to empower individuals with the knowledge and skills to succeed in their careers.",
-  "industry": "Education",
-  "email": "info@ethiotechacademy.com",
-  "phone": "0114567890",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$A8ClPPm1AZg3a0e5gZzySeCZ74GckQ95afp5keWY.K2j8ft1cV/AC",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200135412"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200135412"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "65d1130cb324d18611886184"
-  },
-  "name": "Addis-Motors",
-  "description": "Addis Motors is the premier car dealership in Ethiopia, offering a wide range of new and used vehicles. Our commitment to customer satisfaction sets us apart.",
-  "industry": "Automotive",
-  "email": "sales@addismotors.com",
-  "phone": "0118765432",
-  "address": "Addis Ababa, Ethiopia",
-  "password": "$2a$12$AXYZSdIyOV/VJDwuLHWAy.8Ys5HnfdHfUO2tN4d22aMKA5dUUvtzu",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1708200716119"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1708200716119"
-    }
-  },
-  "__v": 0
-}]
+{
+  "msg": "success",
+  "data": {
+    "jobsdata": [
+      {
+        "_id": "65d11f6d6a1e1fd5780f4bf4",
+        "title": "Software Developer",
+        "description": "We are looking for a talented software developer to join our team. The ideal candidate will have a strong background in software development and a passion for innovation.",
+        "requirement": "Bachelor's degree in Computer Science or related field, proficiency in programming languages such as Java, C++, or Python, experience with software development lifecycle",
+        "responsibility": "Developing high-quality software solutions, collaborating with team members to design and implement features, participating in code reviews and pair programming sessions",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 50000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78d6",
+          "name": "EthioTech Solutions",
+          "email": "info@ethiotech.com",
+          "id": "65d110c7ef165ebda93a78d6"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.003Z",
+        "updatedAt": "2024-02-17T21:04:46.003Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4bf4"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4bf5",
+        "title": "IT Support Specialist",
+        "description": "We are seeking an IT support specialist to provide technical assistance to our clients. The successful candidate will have excellent problem-solving skills and a customer-focused attitude.",
+        "requirement": "Bachelor's degree in Information Technology or related field, experience in IT support or a similar role, strong communication skills",
+        "responsibility": "Providing technical support to clients, diagnosing and resolving hardware and software issues, documenting support procedures and solutions",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 40000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78d6",
+          "name": "EthioTech Solutions",
+          "email": "info@ethiotech.com",
+          "id": "65d110c7ef165ebda93a78d6"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.004Z",
+        "updatedAt": "2024-02-17T21:04:46.004Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4bf5"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4bf6",
+        "title": "Marketing Manager",
+        "description": "We are looking for an experienced marketing manager to lead our marketing team. The ideal candidate will have a proven track record of success in developing and executing marketing strategies.",
+        "requirement": "Bachelor's degree in Marketing or related field, experience in marketing management, strong leadership skills",
+        "responsibility": "Developing and implementing marketing strategies, managing marketing campaigns, analyzing market trends and competitor activities",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 45000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78d7",
+          "name": "Addis Motors",
+          "email": "sales@addismotors.com",
+          "id": "65d110c7ef165ebda93a78d7"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.004Z",
+        "updatedAt": "2024-02-17T21:04:46.004Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4bf6"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4bf9",
+        "title": "Retail Sales Associate",
+        "description": "We are seeking a retail sales associate to join our team. The successful candidate will be responsible for assisting customers, processing sales transactions, and maintaining a clean and organized store environment.",
+        "requirement": "High school diploma or equivalent, experience in retail sales, excellent customer service skills",
+        "responsibility": "Assisting customers with product selection, processing sales transactions, maintaining store cleanliness and organization",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 30000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78dc",
+          "name": "EthioFashion",
+          "email": "info@ethiofashion.com",
+          "id": "65d110c7ef165ebda93a78dc"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.004Z",
+        "updatedAt": "2024-02-17T21:04:46.004Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4bf9"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4bfa",
+        "title": "Nurse",
+        "description": "We are seeking a qualified nurse to join our team. The successful candidate will provide nursing care to patients and assist physicians in healthcare facilities.",
+        "requirement": "Diploma or degree in Nursing, valid nursing license, experience in nursing",
+        "responsibility": "Providing direct patient care, administering medications, monitoring patient vital signs",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78db",
+          "name": "EthioMed Health Services",
+          "email": "info@ethiomed.com",
+          "id": "65d110c7ef165ebda93a78db"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.004Z",
+        "updatedAt": "2024-02-17T21:04:46.004Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4bfa"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4bfc",
+        "title": "Logistics Coordinator",
+        "description": "We are seeking a logistics coordinator to manage the transportation and distribution of goods. The successful candidate will ensure the efficient and timely delivery of products to customers.",
+        "requirement": "Bachelor's degree in Logistics or related field, experience in logistics coordination, strong organizational skills",
+        "responsibility": "Coordinating transportation and distribution of goods, tracking shipment status, resolving transportation issues",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 40000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78dd",
+          "name": "EthioTrade",
+          "email": "info@ethiotrade.com",
+          "id": "65d110c7ef165ebda93a78dd"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.005Z",
+        "updatedAt": "2024-02-17T21:04:46.005Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4bfc"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4bfd",
+        "title": "Warehouse Supervisor",
+        "description": "We are looking for a warehouse supervisor to oversee the efficient operation of our warehouse. The successful candidate will be responsible for managing inventory, ensuring the accuracy of shipments, and maintaining a safe working environment.",
+        "requirement": "Bachelor's degree in Logistics or related field, experience in warehouse management, strong leadership skills",
+        "responsibility": "Managing warehouse operations, overseeing inventory management, ensuring accuracy of shipments",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78dd",
+          "name": "EthioTrade",
+          "email": "info@ethiotrade.com",
+          "id": "65d110c7ef165ebda93a78dd"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.005Z",
+        "updatedAt": "2024-02-17T21:04:46.005Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4bfd"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4bfe",
+        "title": "Electronics Technician",
+        "description": "We are seeking an electronics technician to join our team. The successful candidate will be responsible for installing, maintaining, and repairing electronic equipment.",
+        "requirement": "Diploma or degree in Electronics or related field, experience in electronics repair, strong troubleshooting skills",
+        "responsibility": "Installing, maintaining, and repairing electronic equipment, troubleshooting equipment malfunctions, documenting repairs",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78de",
+          "name": "TechZone Electronics",
+          "email": "info@techzone.com",
+          "id": "65d110c7ef165ebda93a78de"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.006Z",
+        "updatedAt": "2024-02-17T21:04:46.006Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4bfe"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c00",
+        "title": "Pharmacist",
+        "description": "We are seeking a qualified pharmacist to join our team. The successful candidate will dispense medications and provide pharmaceutical care to patients.",
+        "requirement": "Bachelor's degree in Pharmacy, valid pharmacy license, experience in pharmacy practice",
+        "responsibility": "Dispensing medications, providing drug information to patients and healthcare professionals, monitoring patient medication therapy",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 40000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e0",
+          "name": "EthioPharma",
+          "email": "info@ethiopharma.com",
+          "id": "65d110c7ef165ebda93a78e0"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.006Z",
+        "updatedAt": "2024-02-17T21:04:46.006Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c00"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c01",
+        "title": "Quality Control Inspector",
+        "description": "We are seeking a quality control inspector to ensure that our products meet quality standards. The successful candidate will inspect products, conduct tests, and document findings.",
+        "requirement": "Diploma or degree in Quality Control or related field, experience in quality control, attention to detail",
+        "responsibility": "Inspecting products for quality defects, conducting tests to ensure product quality, documenting inspection results",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e0",
+          "name": "EthioPharma",
+          "email": "info@ethiopharma.com",
+          "id": "65d110c7ef165ebda93a78e0"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.006Z",
+        "updatedAt": "2024-02-17T21:04:46.006Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c01"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c02",
+        "title": "Graphic Designer",
+        "description": "We are looking for a creative graphic designer to join our team. The ideal candidate will have a strong design portfolio and a passion for visual communication.",
+        "requirement": "Bachelor's degree in Graphic Design or related field, experience in graphic design, proficiency in design software",
+        "responsibility": "Creating visual concepts, developing design solutions, collaborating with team members on design projects",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78df",
+          "name": "EthioCraft Furniture",
+          "email": "info@ethiocraft.com",
+          "id": "65d110c7ef165ebda93a78df"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.006Z",
+        "updatedAt": "2024-02-17T21:04:46.006Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c02"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c03",
+        "title": "Content Writer",
+        "description": "We are seeking a talented content writer to join our team. The successful candidate will be responsible for creating engaging and informative content for our website and marketing materials.",
+        "requirement": "Bachelor's degree in English, Journalism, or related field, experience in content writing, excellent writing skills",
+        "responsibility": "Writing and editing website content, creating marketing materials, researching industry-related topics",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 30000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78df",
+          "name": "EthioCraft Furniture",
+          "email": "info@ethiocraft.com",
+          "id": "65d110c7ef165ebda93a78df"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.006Z",
+        "updatedAt": "2024-02-17T21:04:46.006Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c03"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c04",
+        "title": "Mechanical Engineer",
+        "description": "We are seeking a skilled mechanical engineer to join our team. The successful candidate will be responsible for designing and testing mechanical systems and devices.",
+        "requirement": "Bachelor's degree in Mechanical Engineering or related field, experience in mechanical engineering, strong analytical skills",
+        "responsibility": "Designing mechanical systems and devices, conducting tests to ensure product performance, analyzing test data",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 45000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e1",
+          "name": "EthioTech Industries",
+          "email": "info@ethiotechindustries.com",
+          "id": "65d110c7ef165ebda93a78e1"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.006Z",
+        "updatedAt": "2024-02-17T21:04:46.006Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c04"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c05",
+        "title": "Civil Engineer",
+        "description": "We are seeking a civil engineer to join our team. The successful candidate will be responsible for designing and overseeing construction projects.",
+        "requirement": "Bachelor's degree in Civil Engineering or related field, experience in civil engineering, knowledge of construction principles and practices",
+        "responsibility": "Designing construction projects, preparing cost estimates, overseeing construction activities",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 45000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e1",
+          "name": "EthioTech Industries",
+          "email": "info@ethiotechindustries.com",
+          "id": "65d110c7ef165ebda93a78e1"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.007Z",
+        "updatedAt": "2024-02-17T21:04:46.007Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c05"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c06",
+        "title": "Graphic Designer",
+        "description": "We are looking for a creative graphic designer to join our team. The ideal candidate will have a strong design portfolio and a passion for visual communication.",
+        "requirement": "Bachelor's degree in Graphic Design or related field, experience in graphic design, proficiency in design software",
+        "responsibility": "Creating visual concepts, developing design solutions, collaborating with team members on design projects",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e2",
+          "name": "EthioPrint Media",
+          "email": "info@ethioprintmedia.com",
+          "id": "65d110c7ef165ebda93a78e2"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.007Z",
+        "updatedAt": "2024-02-17T21:04:46.007Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c06"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c07",
+        "title": "Marketing Specialist",
+        "description": "We are looking for a marketing specialist to join our team. The ideal candidate will have a strong background in marketing and a passion for creativity.",
+        "requirement": "Bachelor's degree in Marketing or related field, experience in marketing, creativity and innovation",
+        "responsibility": "Developing and implementing marketing strategies, analyzing market trends, coordinating marketing campaigns",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 40000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e2",
+          "name": "EthioPrint Media",
+          "email": "info@ethioprintmedia.com",
+          "id": "65d110c7ef165ebda93a78e2"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.007Z",
+        "updatedAt": "2024-02-17T21:04:46.007Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c07"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c08",
+        "title": "Accountant",
+        "description": "We are seeking an accountant to join our team. The successful candidate will be responsible for preparing financial documents, maintaining financial records, and analyzing financial data.",
+        "requirement": "Bachelor's degree in Accounting or related field, experience in accounting, strong analytical skills",
+        "responsibility": "Preparing financial documents, maintaining financial records, analyzing financial data",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e3",
+          "name": "EthioTech Academy",
+          "email": "info@ethiotechacademy.com",
+          "id": "65d110c7ef165ebda93a78e3"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.007Z",
+        "updatedAt": "2024-02-17T21:04:46.007Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c08"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c09",
+        "title": "HR Manager",
+        "description": "We are looking for an HR manager to lead our HR team. The ideal candidate will have a strong background in HR management and a passion for employee development.",
+        "requirement": "Bachelor's degree in HR Management or related field, experience in HR management, strong leadership skills",
+        "responsibility": "Developing and implementing HR strategies, managing employee relations, overseeing recruitment and hiring processes",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 45000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e3",
+          "name": "EthioTech Academy",
+          "email": "info@ethiotechacademy.com",
+          "id": "65d110c7ef165ebda93a78e3"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.007Z",
+        "updatedAt": "2024-02-17T21:04:46.007Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c09"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4bf7",
+        "title": "Sales Representative",
+        "description": "We are seeking a motivated sales representative to join our sales team. The successful candidate will be responsible for generating leads and closing sales deals.",
+        "requirement": "Bachelor's degree in Business Administration or related field, experience in sales, excellent communication skills",
+        "responsibility": "Generating leads, meeting or exceeding sales targets, maintaining customer relationships",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78d7",
+          "name": "Addis Motors",
+          "email": "sales@addismotors.com",
+          "id": "65d110c7ef165ebda93a78d7"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.004Z",
+        "updatedAt": "2024-02-17T21:04:46.004Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4bf7"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c0b",
+        "title": "IT Support Specialist",
+        "description": "We are seeking an IT support specialist to provide technical assistance to our clients. The successful candidate will have excellent problem-solving skills and a customer-focused attitude.",
+        "requirement": "Bachelor's degree in Information Technology or related field, experience in IT support or a similar role, strong communication skills",
+        "responsibility": "Providing technical support to clients, diagnosing and resolving hardware and software issues, documenting support procedures and solutions",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 40000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e4",
+          "name": "EthioTour Adventures",
+          "email": "info@ethiotouradventures.com",
+          "id": "65d110c7ef165ebda93a78e4"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.007Z",
+        "updatedAt": "2024-02-17T21:04:46.007Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c0b"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4bf8",
+        "title": "Fashion Designer",
+        "description": "We are looking for a creative fashion designer to join our team. The ideal candidate will have a passion for fashion and a strong design portfolio.",
+        "requirement": "Bachelor's degree in Fashion Design or related field, experience in fashion design, strong design skills",
+        "responsibility": "Creating and developing new clothing and accessory designs, collaborating with team members to create seasonal collections, staying up-to-date with fashion trends",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 40000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78dc",
+          "name": "EthioFashion",
+          "email": "info@ethiofashion.com",
+          "id": "65d110c7ef165ebda93a78dc"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.004Z",
+        "updatedAt": "2024-02-17T21:04:46.004Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4bf8"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c0d",
+        "title": "Sales Representative",
+        "description": "We are seeking a motivated sales representative to join our sales team. The successful candidate will be responsible for generating leads and closing sales deals.",
+        "requirement": "Bachelor's degree in Business Administration or related field, experience in sales, excellent communication skills",
+        "responsibility": "Generating leads, meeting or exceeding sales targets, maintaining customer relationships",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e5",
+          "name": "EthioTech Consultancy",
+          "email": "info@ethiotechconsultancy.com",
+          "id": "65d110c7ef165ebda93a78e5"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.008Z",
+        "updatedAt": "2024-02-17T21:04:46.008Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c0d"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c0e",
+        "title": "Fashion Designer",
+        "description": "We are looking for a creative fashion designer to join our team. The ideal candidate will have a passion for fashion and a strong design portfolio.",
+        "requirement": "Bachelor's degree in Fashion Design or related field, experience in fashion design, strong design skills",
+        "responsibility": "Creating and developing new clothing and accessory designs, collaborating with team members to create seasonal collections, staying up-to-date with fashion trends",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 40000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e6",
+          "name": "EthioCraft Breweries",
+          "email": "info@ethiocraftbreweries.com",
+          "id": "65d110c7ef165ebda93a78e6"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.008Z",
+        "updatedAt": "2024-02-17T21:04:46.008Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c0e"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c0f",
+        "title": "Retail Sales Associate",
+        "description": "We are seeking a retail sales associate to join our team. The successful candidate will be responsible for assisting customers, processing sales transactions, and maintaining a clean and organized store environment.",
+        "requirement": "High school diploma or equivalent, experience in retail sales, excellent customer service skills",
+        "responsibility": "Assisting customers with product selection, processing sales transactions, maintaining store cleanliness and organization",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 30000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e6",
+          "name": "EthioCraft Breweries",
+          "email": "info@ethiocraftbreweries.com",
+          "id": "65d110c7ef165ebda93a78e6"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.008Z",
+        "updatedAt": "2024-02-17T21:04:46.008Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c0f"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c10",
+        "title": "Nurse",
+        "description": "We are seeking a qualified nurse to join our team. The successful candidate will provide nursing care to patients and assist physicians in healthcare facilities.",
+        "requirement": "Diploma or degree in Nursing, valid nursing license, experience in nursing",
+        "responsibility": "Providing direct patient care, administering medications, monitoring patient vital signs",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e7",
+          "name": "EthioTech Energy",
+          "email": "info@ethiotechenergy.com",
+          "id": "65d110c7ef165ebda93a78e7"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.008Z",
+        "updatedAt": "2024-02-17T21:04:46.008Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c10"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c12",
+        "title": "Logistics Coordinator",
+        "description": "We are seeking a logistics coordinator to manage the transportation and distribution of goods. The successful candidate will ensure the efficient and timely delivery of products to customers.",
+        "requirement": "Bachelor's degree in Logistics or related field, experience in logistics coordination, strong organizational skills",
+        "responsibility": "Coordinating transportation and distribution of goods, tracking shipment status, resolving transportation issues",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 40000,
+        "company": null,
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.009Z",
+        "updatedAt": "2024-02-17T21:04:46.009Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c12"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c13",
+        "title": "Warehouse Supervisor",
+        "description": "We are looking for a warehouse supervisor to oversee the efficient operation of our warehouse. The successful candidate will be responsible for managing inventory, ensuring the accuracy of shipments, and maintaining a safe working environment.",
+        "requirement": "Bachelor's degree in Logistics or related field, experience in warehouse management, strong leadership skills",
+        "responsibility": "Managing warehouse operations, overseeing inventory management, ensuring accuracy of shipments",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": null,
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.009Z",
+        "updatedAt": "2024-02-17T21:04:46.009Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c13"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c14",
+        "title": "Electronics Technician",
+        "description": "We are seeking an electronics technician to join our team. The successful candidate will be responsible for installing, maintaining, and repairing electronic equipment.",
+        "requirement": "Diploma or degree in Electronics or related field, experience in electronics repair, strong troubleshooting skills",
+        "responsibility": "Installing, maintaining, and repairing electronic equipment, troubleshooting equipment malfunctions, documenting repairs",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": null,
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.009Z",
+        "updatedAt": "2024-02-17T21:04:46.009Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c14"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c16",
+        "title": "Pharmacist",
+        "description": "We are seeking a qualified pharmacist to join our team. The successful candidate will dispense medications and provide pharmaceutical care to patients.",
+        "requirement": "Bachelor's degree in Pharmacy, valid pharmacy license, experience in pharmacy practice",
+        "responsibility": "Dispensing medications, providing drug information to patients and healthcare professionals, monitoring patient medication therapy",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 40000,
+        "company": null,
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.010Z",
+        "updatedAt": "2024-02-17T21:04:46.010Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c16"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c17",
+        "title": "Quality Control Inspector",
+        "description": "We are seeking a quality control inspector to ensure that our products meet quality standards. The successful candidate will inspect products, conduct tests, and document findings.",
+        "requirement": "Diploma or degree in Quality Control or related field, experience in quality control, attention to detail",
+        "responsibility": "Inspecting products for quality defects, conducting tests to ensure product quality, documenting inspection results",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": null,
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.010Z",
+        "updatedAt": "2024-02-17T21:04:46.010Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c17"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c18",
+        "title": "Graphic Designer",
+        "description": "We are looking for a creative graphic designer to join our team. The ideal candidate will have a strong design portfolio and a passion for visual communication.",
+        "requirement": "Bachelor's degree in Graphic Design or related field, experience in graphic design, proficiency in design software",
+        "responsibility": "Creating visual concepts, developing design solutions, collaborating with team members on design projects",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 35000,
+        "company": null,
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.010Z",
+        "updatedAt": "2024-02-17T21:04:46.010Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c18"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c19",
+        "title": "Content Writer",
+        "description": "We are seeking a talented content writer to join our team. The successful candidate will be responsible for creating engaging and informative content for our website and marketing materials.",
+        "requirement": "Bachelor's degree in English, Journalism, or related field, experience in content writing, excellent writing skills",
+        "responsibility": "Writing and editing website content, creating marketing materials, researching industry-related topics",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 30000,
+        "company": null,
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.010Z",
+        "updatedAt": "2024-02-17T21:04:46.010Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c19"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c1a",
+        "title": "Mechanical Engineer",
+        "description": "We are seeking a skilled mechanical engineer to join our team. The successful candidate will be responsible for designing and testing mechanical systems and devices.",
+        "requirement": "Bachelor's degree in Mechanical Engineering or related field, experience in mechanical engineering, strong analytical skills",
+        "responsibility": "Designing mechanical systems and devices, conducting tests to ensure product performance, analyzing test data",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 45000,
+        "company": null,
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.010Z",
+        "updatedAt": "2024-02-17T21:04:46.010Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c1a"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c0a",
+        "title": "Software Developer",
+        "description": "We are looking for a talented software developer to join our team. The ideal candidate will have a strong background in software development and a passion for innovation.",
+        "requirement": "Bachelor's degree in Computer Science or related field, proficiency in programming languages such as Java, C++, or Python, experience with software development lifecycle",
+        "responsibility": "Developing high-quality software solutions, collaborating with team members to design and implement features, participating in code reviews and pair programming sessions",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 50000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e4",
+          "name": "EthioTour Adventures",
+          "email": "info@ethiotouradventures.com",
+          "id": "65d110c7ef165ebda93a78e4"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.007Z",
+        "updatedAt": "2024-02-17T21:04:46.007Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c0a"
+      },
+      {
+        "_id": "65d11f6d6a1e1fd5780f4c0c",
+        "title": "Marketing Manager",
+        "description": "We are looking for an experienced marketing manager to lead our marketing team. The ideal candidate will have a proven track record of success in developing and executing marketing strategies.",
+        "requirement": "Bachelor's degree in Marketing or related field, experience in marketing management, strong leadership skills",
+        "responsibility": "Developing and implementing marketing strategies, managing marketing campaigns, analyzing market trends and competitor activities",
+        "location": "Addis Ababa, Ethiopia",
+        "salary": 45000,
+        "company": {
+          "_id": "65d110c7ef165ebda93a78e5",
+          "name": "EthioTech Consultancy",
+          "email": "info@ethiotechconsultancy.com",
+          "id": "65d110c7ef165ebda93a78e5"
+        },
+        "type": "full-time",
+        "createdAt": "2024-02-17T21:04:46.008Z",
+        "updatedAt": "2024-02-17T21:04:46.008Z",
+        "__v": 0,
+        "id": "65d11f6d6a1e1fd5780f4c0c"
+      }
+    ]
+  }
+}
