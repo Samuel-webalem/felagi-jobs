@@ -14,7 +14,7 @@ import JobsDetail from "./components/Admin/Job/JobDetail.jsx";
 import AboutUs from "./components/Admin/AboutUs/Aboutus.jsx";
 import Footer from "./components/Admin/Footer/Footer.jsx";
 import Discription from "./components/Hero/Discription.jsx";
-
+import JobApplication from "./components/Admin/Job/JobApplication.jsx";
 
 function App() {
   const navigate = useNavigate();
@@ -25,7 +25,10 @@ function App() {
     <div>
       <div className="py-4 px-[5%] flex flex-col gap-4">
         <div className="flex items-center ">
-          <div className="flex items-center cursor-pointer gap-2" onClick={() => navigate("/")}>
+          <div
+            className="flex items-center cursor-pointer gap-2"
+            onClick={() => navigate("/")}
+          >
             <img src={logo} alt="logo" className="w-[50px]" />
             <h1 className="bg-gradient-to-r from-green-600 text-2xl to-gray-700 text-transparent bg-clip-text">
               Felagi Jobs
@@ -83,6 +86,7 @@ function App() {
         />
         <Route path="/control/dashboard-summary" element={<AdminDashboard />} />
         <Route path="/job/job-detail/:id" element={<JobsDetail />} />
+        <Route path="/job/apply/:id" element={<JobApplication />} />
         <Route path="/job/job-list" element={<JobsList />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/" element={<Discription />} />
@@ -90,7 +94,7 @@ function App() {
         <Route path="/control/employers" element={<AdminEmployer />} />
         <Route path="/control/job-posts" element={<AdminJobPost />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

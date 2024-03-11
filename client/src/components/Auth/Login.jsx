@@ -5,45 +5,66 @@ import { useAuth } from "../../contexts/authContext.jsx";
 
 const Login = () => {
   const navigate = useNavigate();
-  const { setAuthUser, setIsLoggedIn,user } = useAuth();
+  const { setAuthUser, setIsLoggedIn } = useAuth();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [userType, setUserType] = useState("employee");
+  const [errorMessage, setErrorMessage] = useState("");
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
+  const handleEmailChange = (e) => setEmail(e.target.value);
+  const handlePasswordChange = (e) => setPassword(e.target.value);
+  const handleUserTypeChange = (e) => setUserType(e.target.value);
 
-  const handlePasswordChange = (e) => {
-    setPassword(e.target.value);
-  };
-
-  const handleUserTypeChange = (e) => {
-    setUserType(e.target.value);
-  };
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsLoggedIn(true);
-    setAuthUser({
-      email: email,
-      password: password,
-      UserType: userType, // Include UserType in the authUser object
-    });
-    navigate("/");
+
+    const apiEndpoint =
+      userType === "company"
+        ? "http://127.0.0.1:8000/api/company/login"
+        : "http://127.0.0.1:8000/api/users/login";
+
+    try {
+      const response = await fetch(apiEndpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, password }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status}`);
+      }
+
+      const data = await response.json();
+      console.log(data)
+      setAuthUser({
+        ...data.user,
+        userType: userType,
+      });
+      localStorage.setItem("token", data.token);
+      setIsLoggedIn(true);
+      navigate("/");
+    } catch (error) {
+      console.error("Login error:", error);
+      setErrorMessage("Failed to log in. Please check your credentials.");
+    }
   };
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
       <div className="w-96 p-8 bg-white rounded-lg shadow-md">
+        {/* Logo and Title */}
         <div className="flex items-center justify-center gap-2">
           <img src={logo} alt="logo" className="w-12" />
-          <h1 className="bg-gradient-to-r from-green-600 text-2xl to-gray-700 text-transparent bg-clip-text">
+          <h1 className="text-2xl text-transparent bg-gradient-to-r from-green-600 to-gray-700 bg-clip-text">
             Felagi Jobs
           </h1>
         </div>
+
         <h2 className="mt-4 mb-8 text-3xl font-bold text-center">Login</h2>
+        {/* Login Form */}
         <form onSubmit={handleSubmit}>
           <input
             type="email"
@@ -63,7 +84,7 @@ const Login = () => {
             <select
               id="userType"
               name="userType"
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              className="block w-full px-3 py-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
               value={userType}
               onChange={handleUserTypeChange}
             >
@@ -77,6 +98,9 @@ const Login = () => {
           >
             Login
           </button>
+          {errorMessage && (
+            <p className="text-red-500 text-sm mt-4">{errorMessage}</p>
+          )}
         </form>
         <p className="text-gray-500 text-sm mt-4 text-center">
           Create account{" "}
