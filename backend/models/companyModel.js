@@ -6,11 +6,12 @@ const companySchema = new Schema(
   {
     name: {
       type: String,
+      unique: false,
       required: [true, "Please provide user name"],
     },
     email: {
       type: String,
-      unique: true,
+      // unique: true,
       lowercase: true,
       required: [true, "Please provide email"],
       validate: [validator.isEmail, "please insert a valid email"],
@@ -21,7 +22,6 @@ const companySchema = new Schema(
     },
     industry: {
       type: String,
-      required: [true, "Please provide the industry the company operates in"],
     },
     phone: {
       type: String,
@@ -51,6 +51,7 @@ const companySchema = new Schema(
       },
       select: false,
     },
+   
   },
   {
     toJSON: { virtuals: true },
@@ -62,6 +63,7 @@ companySchema.virtual("postedJobs", {
   foreignField: "company",
   localField: "_id",
 });
+
 
 
 companySchema.pre("save", async function (next) {

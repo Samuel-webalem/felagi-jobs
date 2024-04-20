@@ -5,14 +5,12 @@ import { useNavigate } from "react-router-dom";
 const EmployeeRegister = () => {
   const navigate = useNavigate();
 
-  // State variables for form inputs
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [passwordConfirmation, setPasswordConfirmation] = useState("");
 
-  // Handler functions to update state
   const handleFullNameChange = (e) => setFullName(e.target.value);
   const handleEmailChange = (e) => setEmail(e.target.value);
   const handlePasswordChange = (e) => setPassword(e.target.value);
@@ -20,8 +18,6 @@ const EmployeeRegister = () => {
   const handlePasswordConfirmationChange = (e) =>
     setPasswordConfirmation(e.target.value);
 
-  // Form submission handler
-  // Form submission handler
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -32,11 +28,11 @@ const EmployeeRegister = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          name: fullName, // Adjusted from fullName to name to match the specified structure
+          name: fullName,
           email,
-          phonenumber: phoneNumber, // Adjusted to phonenumber to match the specified structure
+          phonenumber: phoneNumber,
           password,
-          passwordConfirmation, // This field matches the structure so no change needed
+          passwordConfirmation,
         }),
       });
 
@@ -45,25 +41,21 @@ const EmployeeRegister = () => {
       }
 
       const data = await response.json();
-      console.log(data); // Logging the response for debugging; handle as needed
-      navigate("/account/login"); // Redirect user to login page on successful registration
+      navigate("/job/job-list");
     } catch (error) {
-      console.error("Registration error:", error);
-      alert(error.message); // Display error message to the user
+      console.log("Registration error:", error);
     }
   };
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
       <div className="w-[450px] px-8 py-4 bg-white rounded-lg shadow-md flex flex-col">
-        {/* Logo and Header */}
         <div className="flex items-center justify-center mb-4">
           <img src={logo} alt="logo" className="w-16" />
           <h1 className="text-2xl bg-gradient-to-r from-green-600 to-gray-700 text-transparent bg-clip-text">
             Felagi Jobs
           </h1>
         </div>
-        {/* Registration Form */}
         <form className="grid grid-cols-1 gap-4" onSubmit={handleSubmit}>
           <input
             id="fullName"
@@ -112,7 +104,6 @@ const EmployeeRegister = () => {
             Sign Up
           </button>
         </form>
-        {/* Login Link */}
         <p className="text-gray-500 text-sm text-center mt-4">
           Already have an account?{" "}
           <span

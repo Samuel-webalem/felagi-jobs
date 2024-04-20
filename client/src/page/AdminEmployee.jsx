@@ -1,6 +1,6 @@
 
 import Layout from '../components/Admin/Layout/Layout'
-import Employee from '../components/Admin/Employee/Employee'
+import Employee from '../components/Admin/Job/createJob'
 
 const AdminEmployee = () => {
   return (

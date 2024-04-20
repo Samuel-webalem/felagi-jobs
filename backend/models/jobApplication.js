@@ -42,7 +42,6 @@ const jobApplicationSchema = new Schema(
     applier: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
-      required: true,
     },
     job: {
       type: mongoose.Schema.Types.ObjectId,

@@ -26,14 +26,16 @@ export function JobProvider(props) {
       });
   }, []);
 
+  useEffect(() => {
+    console.log(jobs);
+  }, [jobs]);
+
   const value = {
     jobs,
     loading,
     error,
   };
- useEffect(() => {
-   console.log(jobs);
- }, [jobs]);
+
   return (
     <JobContext.Provider value={value}>{props.children}</JobContext.Provider>
   );

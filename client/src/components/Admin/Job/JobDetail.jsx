@@ -13,10 +13,6 @@ const JobDetail = () => {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
 
-  const handleApply = () => {
-    navigate(`/job/apply/${job.id}`);
-  };
-
   return (
     <div className="w-[70%] pl-10 pr-10 border bg-[#D7E4C0] border-gray-300 m-5 ml-[15%] rounded-md mb-8 items-center justify-center">
       <div className="flex mb-5 mt-5 items-center justify-center">
@@ -56,7 +52,9 @@ const JobDetail = () => {
       </div>
       <button
         className="w-[70%] bg-[#328572] text-white py-2 rounded-md mt-8 mb-10 ml-[120px] hover:bg-[#32857290]"
-        onClick={handleApply}
+        onClick={() => {
+          navigate(`/job/apply/${job.id}`, { state: { job } });
+        }}
       >
         Apply
       </button>

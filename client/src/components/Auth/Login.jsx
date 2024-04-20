@@ -5,7 +5,7 @@ import { useAuth } from "../../contexts/authContext.jsx";
 
 const Login = () => {
   const navigate = useNavigate();
-  const { setAuthUser, setIsLoggedIn } = useAuth();
+  const { setIsLoggedIn } = useAuth();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -38,14 +38,23 @@ const Login = () => {
       }
 
       const data = await response.json();
-      console.log(data)
-      setAuthUser({
-        ...data.user,
-        userType: userType,
-      });
-      localStorage.setItem("token", data.token);
+      const userData =
+        userType === "company" ? data.data.company : data.data.user;
+      localStorage.setItem(
+        "userData",
+        JSON.stringify({
+          user: {
+            ...userData,
+          },
+          userType: userType,
+          token: data.token,
+        })
+      );
+
       setIsLoggedIn(true);
-      navigate("/");
+      userType === "company"
+        ? navigate("/control/dashboard-summary")
+        : navigate("/job/job-list");
     } catch (error) {
       console.error("Login error:", error);
       setErrorMessage("Failed to log in. Please check your credentials.");
@@ -55,7 +64,6 @@ const Login = () => {
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
       <div className="w-96 p-8 bg-white rounded-lg shadow-md">
-        {/* Logo and Title */}
         <div className="flex items-center justify-center gap-2">
           <img src={logo} alt="logo" className="w-12" />
           <h1 className="text-2xl text-transparent bg-gradient-to-r from-green-600 to-gray-700 bg-clip-text">
@@ -64,7 +72,7 @@ const Login = () => {
         </div>
 
         <h2 className="mt-4 mb-8 text-3xl font-bold text-center">Login</h2>
-        {/* Login Form */}
+
         <form onSubmit={handleSubmit}>
           <input
             type="email"

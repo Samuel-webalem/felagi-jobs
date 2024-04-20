@@ -1,9 +1,7 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import { useLocation } from "react-router-dom";
-import {
-  useNavigate
-} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useJob } from "../../../contexts/jobContext.jsx";
 import {
   FaMapMarkerAlt,
@@ -13,23 +11,21 @@ import {
 } from "react-icons/fa";
 
 const Dashboard = () => {
-  const navigate = useNavigate(); // Use navigate from react-router-dom
+  const navigate = useNavigate();
   const { jobs, loading, error } = useJob();
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(4);
   const location = useLocation();
   const propValue = location.state?.propKey;
- useEffect(() => {
-   if (propValue) {
-     setSearchTerm(propValue);
-   }
- }, [propValue]);
-  const filteredJobs = jobs.filter(
-    (job) =>
-      job.title.toLowerCase().includes(searchTerm.toLowerCase())
+  useEffect(() => {
+    if (propValue) {
+      setSearchTerm(propValue);
+    }
+  }, [propValue]);
+  const filteredJobs = jobs.filter((job) =>
+    job.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
-
 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
@@ -41,8 +37,8 @@ const Dashboard = () => {
     <div className="grid">
       <div className="flex justify-between ml-10 mr-10">
         <div>
-          <div className="flex m-1 gap-2 w-full  justify-end">
-            <div className="flex gap-2 w-[500px] bg-[#D7E4C0] mr-7 ml-[740px] p-2 justify-between rounded leading-normal">
+          <div className="flex gap-2 w-full">
+            <div className="flex gap-2 w-[500px] bg-[#D7E4C0] mr-7 ml-[680px] p-2 justify-between rounded leading-normal">
               <input
                 type="text"
                 placeholder="Search by Jobs title......"
@@ -63,20 +59,19 @@ const Dashboard = () => {
             const now = new Date();
             const diff = now - createdAt;
             let posted;
-           if (diff < 60000) {
-             posted = `${Math.round(diff / 1000)} seconds ago`;
-           } else if (diff < 3600000) {
-             posted = `${Math.round(diff / 60000)} minutes ago`;
-           } else if (diff < 86400000) {
-             posted = `${Math.round(diff / 3600000)} hours ago`;
-           } else if (diff < 604800000) {
-             posted = `${Math.round(diff / 86400000)} days ago`;
-           } else if (diff < 2419200000) {
-             posted = `${Math.round(diff / 604800000)} weeks ago`;
-           } else {
-             posted = `${Math.round(diff / 2419200000)} months ago`;
-           }
-
+            if (diff < 60000) {
+              posted = `${Math.round(diff / 1000)} seconds ago`;
+            } else if (diff < 3600000) {
+              posted = `${Math.round(diff / 60000)} minutes ago`;
+            } else if (diff < 86400000) {
+              posted = `${Math.round(diff / 3600000)} hours ago`;
+            } else if (diff < 604800000) {
+              posted = `${Math.round(diff / 86400000)} days ago`;
+            } else if (diff < 2419200000) {
+              posted = `${Math.round(diff / 604800000)} weeks ago`;
+            } else {
+              posted = `${Math.round(diff / 2419200000)} months ago`;
+            }
 
             return (
               <div
@@ -121,7 +116,9 @@ const Dashboard = () => {
                   </div>
                   <div
                     className="detail cursor-pointer"
-                   onClick={() => navigate(`/job/job-detail/${job.id}`, { state: { job } })}
+                    onClick={() =>
+                      navigate(`/job/job-detail/${job.id}`, { state: { job } })
+                    }
                   >
                     <p className="text-bold text-[#328572] mt-5 text-lg">
                       View Job Detail

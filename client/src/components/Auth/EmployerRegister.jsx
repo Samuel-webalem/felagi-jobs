@@ -1,11 +1,11 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import logo from "../../assets/logo.png";
+import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const EmployerRegister = () => {
   const navigate = useNavigate();
 
-  // State variables for form inputs
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [description, setDescription] = useState("");
@@ -14,12 +14,10 @@ const EmployerRegister = () => {
   const [password, setPassword] = useState("");
   const [passwordConfirmation, setPasswordConfirmation] = useState("");
 
-  // Handler functions to update state
   const handleInputChange = (e, setter) => {
     setter(e.target.value);
   };
 
-  // Form submission handler
   const handleSubmit = async (e) => {
     e.preventDefault();
     const requestBody = {
@@ -33,22 +31,25 @@ const EmployerRegister = () => {
     };
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/company/signup", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(requestBody),
-      });
+      const response = await axios.post(
+        "http://127.0.0.1:8000/api/company/signup",
+        requestBody
+      );
+      let data = response.data;
 
-      if (!response.ok) {
-        throw new Error("Failed to register. Please try again.");
-      }
-
-      const data = await response.json();
-      console.log(data); // For debugging
-      navigate("/account/login"); // Redirect on success
+      localStorage.setItem(
+        "companyData",
+        JSON.stringify({
+          company: {
+            ...data.data.company,
+          },
+          userType: "company",
+          token: data.token,
+        })
+      );
+      navigate("/control/dashboard-summary");
     } catch (error) {
-      console.error("Registration error:", error);
-      alert(error.message);
+      console.log("Registration error:", error);
     }
   };
 
@@ -62,10 +63,9 @@ const EmployerRegister = () => {
           </h1>
         </div>
         <form className="grid grid-cols-1 gap-3" onSubmit={handleSubmit}>
-          {/* Name and email outside the grid */}
           <div className="flex flex-col">
             <label htmlFor="fullName" className="text-sm font-semibold">
-              Full Name
+              Company Full Name
             </label>
             <input
               type="text"
@@ -87,7 +87,6 @@ const EmployerRegister = () => {
               className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
             />
           </div>
-          {/* Description as a text area */}
           <div className="flex flex-col">
             <label htmlFor="description" className="text-sm font-semibold">
               Description
@@ -99,7 +98,6 @@ const EmployerRegister = () => {
               className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
             />
           </div>
-          {/* Phone and address in the grid */}
           <div className="grid grid-cols-2 gap-3">
             <div className="flex flex-col">
               <label htmlFor="phone" className="text-sm font-semibold">
@@ -126,7 +124,6 @@ const EmployerRegister = () => {
               />
             </div>
           </div>
-          {/* Password and confirmation in the grid */}
           <div className="grid grid-cols-2 gap-3">
             <div className="flex flex-col">
               <label htmlFor="password" className="text-sm font-semibold">

@@ -40,9 +40,9 @@ const jobSchema = new Schema(
   },
 
   {
-      toJSON: { virtuals: true },
-      timestamps: true,
-      toObject: { virtuals: true },
+    toJSON: { virtuals: true },
+    timestamps: true,
+    toObject: { virtuals: true },
   }
 );
 
@@ -52,6 +52,12 @@ jobSchema.pre(/^find/, function (next) {
     select: "name phonenumber email",
   });
   next();
+});
+
+jobSchema.virtual("jobApplication", {
+  ref: "jobApplication",
+  foreignField: "job",
+  localField: "_id",
 });
 
 const Job = mongoose.model("Job", jobSchema);
