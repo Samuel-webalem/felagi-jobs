@@ -26,9 +26,6 @@ export function JobProvider(props) {
       });
   }, []);
 
-  useEffect(() => {
-    console.log(jobs);
-  }, [jobs]);
 
   const value = {
     jobs,

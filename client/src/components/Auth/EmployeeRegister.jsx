@@ -1,10 +1,12 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
+import Loading from "../Loading/Loading";
 
 const EmployeeRegister = () => {
   const navigate = useNavigate();
 
+  const [isLoading, setIsLoading] = useState(false);
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -20,6 +22,7 @@ const EmployeeRegister = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
 
     try {
       const response = await fetch("http://127.0.0.1:8000/api/users/signup", {
@@ -44,6 +47,8 @@ const EmployeeRegister = () => {
       navigate("/job/job-list");
     } catch (error) {
       console.log("Registration error:", error);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -56,63 +61,72 @@ const EmployeeRegister = () => {
             Felagi Jobs
           </h1>
         </div>
-        <form className="grid grid-cols-1 gap-4" onSubmit={handleSubmit}>
-          <input
-            id="fullName"
-            type="text"
-            placeholder="Full Name"
-            value={fullName}
-            onChange={handleFullNameChange}
-            className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
-          />
-          <input
-            id="email"
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={handleEmailChange}
-            className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
-          />
-          <input
-            id="phoneNumber"
-            type="text"
-            placeholder="Phone Number"
-            value={phoneNumber}
-            onChange={handlePhoneNumberChange}
-            className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
-          />
-          <input
-            id="password"
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={handlePasswordChange}
-            className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
-          />
-          <input
-            id="passwordConfirmation"
-            type="password"
-            placeholder="Confirm Password"
-            value={passwordConfirmation}
-            onChange={handlePasswordConfirmationChange}
-            className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
-          />
-          <button
-            type="submit"
-            className="bg-[#328572] hover:bg-[#32857290] text-white font-bold py-2 rounded-md"
-          >
-            Sign Up
-          </button>
-        </form>
-        <p className="text-gray-500 text-sm text-center mt-4">
-          Already have an account?{" "}
-          <span
-            className="text-blue-500 cursor-pointer"
-            onClick={() => navigate("/account/login")}
-          >
-            Sign in
-          </span>
-        </p>
+
+        {isLoading ? (
+          <Loading />
+        ) : (
+          <>
+            <form className="grid grid-cols-1 gap-4" onSubmit={handleSubmit}>
+              <input
+                id="fullName"
+                type="text"
+                placeholder="Full Name"
+                value={fullName}
+                onChange={handleFullNameChange}
+                className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
+              />
+              <input
+                id="email"
+                type="email"
+                placeholder="Email"
+                value={email}
+                onChange={handleEmailChange}
+                className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
+              />
+              <input
+                id="phoneNumber"
+                type="text"
+                placeholder="Phone Number"
+                value={phoneNumber}
+                onChange={handlePhoneNumberChange}
+                className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
+              />
+              <input
+                id="password"
+                type="password"
+                placeholder="Password"
+                value={password}
+                onChange={handlePasswordChange}
+                className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
+              />
+              <input
+                id="passwordConfirmation"
+                type="password"
+                placeholder="Confirm Password"
+                value={passwordConfirmation}
+                onChange={handlePasswordConfirmationChange}
+                className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
+              />
+              <button
+                type="submit"
+                className="bg-[#328572] hover:bg-[#32857290] text-white font-bold py-2 rounded-md"
+                disabled={isLoading}
+              >
+                {" "}
+                Sign Up
+              </button>
+            </form>
+            <p className="text-gray-500 text-sm text-center mt-4">
+              Already have an account?{" "}
+              <span
+                className="text-blue-500 cursor-pointer"
+                onClick={() => navigate("/account/login")}
+              >
+                Sign in
+              </span>
+            </p>
+          </>
+        )}
       </div>
     </div>
   );

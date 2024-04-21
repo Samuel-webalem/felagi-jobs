@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
+import Loading from "../../Loading/Loading";
+
 const PostJobForm = () => {
-  const userData = JSON.parse(localStorage.getItem("userData"));
-  const userId = userData.user._id;
   const [formData, setFormData] = useState({
     title: "",
     description: "",
@@ -10,7 +10,6 @@ const PostJobForm = () => {
     responsibility: "",
     location: "",
     salary: "",
-    company: userId,
     type: "full-time",
   });
 
@@ -36,7 +35,7 @@ const PostJobForm = () => {
         },
         body: JSON.stringify(formData),
       });
-      console.log(JSON.stringify(formData));
+      console.log(response);
       if (response.ok) {
         setFormSuccess("Job posted successfully!");
         setFormData({
@@ -61,7 +60,9 @@ const PostJobForm = () => {
     }
   };
 
-  return (
+  return isLoading ? (
+    <Loading />
+  ) : (
     <div className="container mx-auto max-w-3xl mt-10">
       {formSuccess && (
         <div className="bg-green-100 text-green-800 px-4 py-2 rounded mb-4">
@@ -213,6 +214,7 @@ const PostJobForm = () => {
       </form>
     </div>
   );
+
 };
 
 export default PostJobForm;

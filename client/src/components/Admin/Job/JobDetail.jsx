@@ -2,6 +2,7 @@ import React from "react";
 import { useJob } from "../../../contexts/jobContext.jsx";
 import { useParams, useNavigate } from "react-router-dom";
 import { FaMapMarkerAlt, FaClock, FaBriefcase } from "react-icons/fa";
+import Loading from "../../Loading/Loading";
 
 const JobDetail = () => {
   const { jobs, loading, error } = useJob();
@@ -10,7 +11,7 @@ const JobDetail = () => {
 
   const job = jobs.find((job) => job.id === id);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <Loading />;
   if (error) return <p>Error: {error.message}</p>;
 
   return (

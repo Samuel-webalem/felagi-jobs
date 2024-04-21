@@ -1,16 +1,19 @@
 import React, { useState } from "react";
-
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import logo from "../../../assets/logo.png";
 import defaultUserImage from "../../../assets/default.jpg";
 
 const NavigationBar = () => {
   const navigate = useNavigate();
+  const location = useLocation();
 
   const [showLogoutMenu, setShowLogoutMenu] = useState(false);
   const userData = JSON.parse(localStorage.getItem("userData"));
+  const [activeNavItem, setActiveNavItem] = useState("");
+
   const handleLogout = () => {
     localStorage.removeItem("userData");
+    setShowLogoutMenu(false);
     navigate("/");
   };
 
@@ -32,26 +35,54 @@ const NavigationBar = () => {
             {userData && userData.userType === "employee" && (
               <>
                 <li
-                  className="nav-item cursor-pointer hover:text-[#328572] mr-10"
-                  onClick={() => navigate("/")}
+                  className={`nav-item cursor-pointer ${
+                    activeNavItem === "Home"
+                      ? "text-[#328572]"
+                      : "text-gray-700"
+                  } mr-10`}
+                  onClick={() => {
+                    setActiveNavItem("Home");
+                    navigate("/");
+                  }}
                 >
                   Home
                 </li>
                 <li
-                  className="nav-item cursor-pointer hover:text-[#328572] mr-20"
-                  onClick={() => navigate("/job/job-list")}
+                  className={`nav-item cursor-pointer ${
+                    activeNavItem === "FindJob"
+                      ? "text-[#328572]"
+                      : "text-gray-700"
+                  } mr-20`}
+                  onClick={() => {
+                    setActiveNavItem("FindJob");
+                    navigate("/job/job-list");
+                  }}
                 >
                   FindJob
                 </li>
                 <li
-                  className="nav-item cursor-pointer hover:text-[#328572] mr-20"
-                  onClick={() => navigate("/job/job-applied")}
+                  className={`nav-item cursor-pointer ${
+                    activeNavItem === "JobApplied"
+                      ? "text-[#328572]"
+                      : "text-gray-700"
+                  } mr-20`}
+                  onClick={() => {
+                    setActiveNavItem("JobApplied");
+                    navigate("/job/job-applied");
+                  }}
                 >
                   JobApplied
                 </li>
                 <li
-                  className="nav-item cursor-pointer hover:text-[#328572] mr-20"
-                  onClick={() => navigate("/about")}
+                  className={`nav-item cursor-pointer ${
+                    activeNavItem === "AboutUs"
+                      ? "text-[#328572]"
+                      : "text-gray-700"
+                  } mr-20`}
+                  onClick={() => {
+                    setActiveNavItem("AboutUs");
+                    navigate("/about");
+                  }}
                 >
                   AboutUs
                 </li>
@@ -60,21 +91,42 @@ const NavigationBar = () => {
             {userData && userData.userType === "company" && (
               <>
                 <li
-                  className="nav-item cursor-pointer hover:text-[#328572] mr-10"
-                  onClick={() => navigate("/")}
+                  className={`nav-item cursor-pointer ${
+                    activeNavItem === "Home"
+                      ? "text-[#328572]"
+                      : "text-gray-700"
+                  } mr-10`}
+                  onClick={() => {
+                    setActiveNavItem("Home");
+                    navigate("/");
+                  }}
                 >
                   Home
                 </li>
                 <li
-                  className="nav-item cursor-pointer hover:text-[#328572] mr-20"
-                  onClick={() => navigate("/control/dashboard-summary")}
+                  className={`nav-item cursor-pointer ${
+                    activeNavItem === "Dashboard"
+                      ? "text-[#328572]"
+                      : "text-gray-700"
+                  } mr-20`}
+                  onClick={() => {
+                    setActiveNavItem("Dashboard");
+                    navigate("/control/dashboard-summary");
+                  }}
                 >
                   Dashboard
                 </li>
 
                 <li
-                  className="nav-item cursor-pointer hover:text-[#328572] mr-20"
-                  onClick={() => navigate("/about")}
+                  className={`nav-item cursor-pointer ${
+                    activeNavItem === "AboutUs"
+                      ? "text-[#328572]"
+                      : "text-gray-700"
+                  } mr-20`}
+                  onClick={() => {
+                    setActiveNavItem("AboutUs");
+                    navigate("/about");
+                  }}
                 >
                   AboutUs
                 </li>

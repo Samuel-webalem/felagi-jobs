@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../contexts/authContext.jsx";
+import Loading from "../Loading/Loading";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -11,6 +12,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [userType, setUserType] = useState("employee");
   const [errorMessage, setErrorMessage] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleEmailChange = (e) => setEmail(e.target.value);
   const handlePasswordChange = (e) => setPassword(e.target.value);
@@ -18,6 +20,7 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
 
     const apiEndpoint =
       userType === "company"
@@ -58,6 +61,8 @@ const Login = () => {
     } catch (error) {
       console.error("Login error:", error);
       setErrorMessage("Failed to log in. Please check your credentials.");
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -70,55 +75,61 @@ const Login = () => {
             Felagi Jobs
           </h1>
         </div>
+        {isLoading ? (
+          <Loading />
+        ) : (
+          <>
+            <h2 className="mt-4 mb-8 text-3xl font-bold text-center">Login</h2>
 
-        <h2 className="mt-4 mb-8 text-3xl font-bold text-center">Login</h2>
-
-        <form onSubmit={handleSubmit}>
-          <input
-            type="email"
-            className="w-full px-4 py-2 rounded-md border border-gray-300 mb-4"
-            placeholder="Enter email"
-            value={email}
-            onChange={handleEmailChange}
-          />
-          <input
-            type="password"
-            className="w-full px-4 py-2 rounded-md border border-gray-300 mb-4"
-            placeholder="Enter password"
-            value={password}
-            onChange={handlePasswordChange}
-          />
-          <div className="mb-4">
-            <select
-              id="userType"
-              name="userType"
-              className="block w-full px-3 py-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-              value={userType}
-              onChange={handleUserTypeChange}
-            >
-              <option value="employee">Employee</option>
-              <option value="company">Company</option>
-            </select>
-          </div>
-          <button
-            type="submit"
-            className="w-full bg-[#328572] text-white py-2 rounded-md mt-4 hover:bg-[#32857290]"
-          >
-            Login
-          </button>
-          {errorMessage && (
-            <p className="text-red-500 text-sm mt-4">{errorMessage}</p>
-          )}
-        </form>
-        <p className="text-gray-500 text-sm mt-4 text-center">
-          Create account{" "}
-          <span
-            className="text-blue-500 cursor-pointer"
-            onClick={() => navigate("/account/register")}
-          >
-            sign up
-          </span>
-        </p>
+            <form onSubmit={handleSubmit}>
+              <input
+                type="email"
+                className="w-full px-4 py-2 rounded-md border border-gray-300 mb-4"
+                placeholder="Enter email"
+                value={email}
+                onChange={handleEmailChange}
+              />
+              <input
+                type="password"
+                className="w-full px-4 py-2 rounded-md border border-gray-300 mb-4"
+                placeholder="Enter password"
+                value={password}
+                onChange={handlePasswordChange}
+              />
+              <div className="mb-4">
+                <select
+                  id="userType"
+                  name="userType"
+                  className="block w-full px-3 py-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  value={userType}
+                  onChange={handleUserTypeChange}
+                >
+                  <option value="employee">Employee</option>
+                  <option value="company">Company</option>
+                </select>
+              </div>
+              <button
+                type="submit"
+                className="w-full bg-[#328572] text-white py-2 rounded-md mt-4 hover:bg-[#32857290]"
+                disabled={isLoading}
+              >
+                Login
+              </button>
+              {errorMessage && (
+                <p className="text-red-500 text-sm mt-4">{errorMessage}</p>
+              )}
+            </form>
+            <p className="text-gray-500 text-sm mt-4 text-center">
+              Create account{" "}
+              <span
+                className="text-blue-500 cursor-pointer"
+                onClick={() => navigate("/account/register")}
+              >
+                sign up
+              </span>
+            </p>
+          </>
+        )}
       </div>
     </div>
   );
