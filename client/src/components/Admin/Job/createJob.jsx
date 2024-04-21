@@ -28,13 +28,16 @@ const PostJobForm = () => {
     setFormSuccess("");
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/jobs", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://felagi-jobs.onrender.com/api/jobs",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
       console.log(response);
       if (response.ok) {
         setFormSuccess("Job posted successfully!");

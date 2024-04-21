@@ -14,7 +14,7 @@ export function JobProvider(props) {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/api/jobs")
+      .get("https://felagi-jobs.onrender.com/api/jobs")
       .then((response) => {
         setJobs(response.data.data.jobsdata);
         setLoading(false);

@@ -24,8 +24,8 @@ const Login = () => {
 
     const apiEndpoint =
       userType === "company"
-        ? "http://127.0.0.1:8000/api/company/login"
-        : "http://127.0.0.1:8000/api/users/login";
+        ? "https://felagi-jobs.onrender.com/api/company/login"
+        : "https://felagi-jobs.onrender.com/api/users/login";
 
     try {
       const response = await fetch(apiEndpoint, {

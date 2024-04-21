@@ -11,7 +11,9 @@ const JobApplied = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch(`http://127.0.0.1:8000/api/users/${userId}`);
+      const response = await fetch(
+        `https://felagi-jobs.onrender.com/api/users/${userId}`
+      );
       if (response.ok) {
         const { data } = await response.json();
         const extractedJobs = data.user.jobapplied.map((job) => job.job);

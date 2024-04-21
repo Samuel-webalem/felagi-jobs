@@ -35,7 +35,7 @@ const EmployerRegister = () => {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/company/signup",
+        "https://felagi-jobs.onrender.com/api/company/signup",
         requestBody
       );
       let data = response.data;

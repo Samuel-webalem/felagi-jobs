@@ -71,7 +71,7 @@ const JobApplication = () => {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/jobs/apply",
+        "https://felagi-jobs.onrender.com/api/jobs/apply",
         formData
       );
       if (response.data.status === "success") {

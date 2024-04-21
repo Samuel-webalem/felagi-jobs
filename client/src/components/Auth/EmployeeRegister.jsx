@@ -25,19 +25,22 @@ const EmployeeRegister = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/users/signup", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name: fullName,
-          email,
-          phonenumber: phoneNumber,
-          password,
-          passwordConfirmation,
-        }),
-      });
+      const response = await fetch(
+        "https://felagi-jobs.onrender.com/api/users/signup",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name: fullName,
+            email,
+            phonenumber: phoneNumber,
+            password,
+            passwordConfirmation,
+          }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error(response.message);

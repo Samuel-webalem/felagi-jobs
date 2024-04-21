@@ -31,7 +31,7 @@ export function AuthProvider(props) {
       const url = authUser.UserType === "employee" ? "users" : "company";
 
       axios
-        .post(`http://127.0.0.1:8000/api/${url}/login`, {
+        .post(`https://felagi-jobs.onrender.com/api/${url}/login`, {
           email: authUser.email,
           password: authUser.password,
         })
